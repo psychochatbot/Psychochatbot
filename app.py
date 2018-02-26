@@ -31,7 +31,7 @@ def makeWebhookResult(req):
     if req.get("result").get("action") != "how_are_you":
         return {
         "speech":"wrong intent",
-        "displayText":"wrong intent"
+        "displayText":"wrong intent",
         "source": "apiai-onlinestore-shipping"
         }
     result = req.get("result")
