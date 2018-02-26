@@ -29,7 +29,11 @@ def webhook():
 
 def makeWebhookResult(req):
     if req.get("result").get("action") != "how_are_you":
-        return {}
+        return {
+        "speech":"wrong intent",
+        "displayText":"wrong intent"
+        "source": "apiai-onlinestore-shipping"
+        }
     result = req.get("result")
     parameters = result.get("parameters")
     zone = parameters.get("how_r_u")
