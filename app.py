@@ -42,7 +42,7 @@ def makeWebhookResult(req):
         result = req.get("result")
         parameters = result.get("parameters")
         occup=parameters.get("abc")
-        speech="you're father is "+str(occup)
+        speech="your father is "+str(occup)
         print(occup)
         print(speech)
 
