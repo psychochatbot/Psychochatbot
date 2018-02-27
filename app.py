@@ -28,30 +28,30 @@ def webhook():
     return r
 
 def makeWebhookResult(req):
-    if req.get("result").get("action") != "how_are_you":
-        return {
-       # "speech":"wrong intent",
-        #"displayText":"wrong intent",
-        #"source": "apiai-onlinestore-shipping"
-        }
-    result = req.get("result")
-    parameters = result.get("parameters")
-    zone = parameters.get("how_r_u")
-
-    #cost = {'Europe':100, 'North America':200, 'South America':300, 'Asia':400, 'Africa':500}
-
-   # speech = "The cost of shipping to " + zone + " is " + str(cost[zone]) + " euros."
-    speech="you are "+str(zone)
+    if req.get("result").get("action") == "how_are_you":
+      #  return {}
+        result = req.get("result")
+        parameters = result.get("parameters")
+        zone = parameters.get("how_r_u")
+        speech="you are "+str(zone)
     #speech="you are bhoot"
-    print(zone)
-    print(speech)
+        print(zone)
+        print(speech)
+        
+    if req.get("result").get("action") == "occupation_name":
+        result = req.get("result")
+        parameters = result.get("parameters")
+        occup=parameters.get("abc")
+        speech="you're father is "+str(occup)
+        print(occup)
+        print(speech)
 
     return {
         "speech": speech,
         "displayText": speech,
         #"data": {},
         # "contextOut": [],
-        "source": "apiai-onlinestore-shipping"
+        "source": "apiai-psychochatbot"
     }
 
 
