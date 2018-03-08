@@ -53,7 +53,7 @@ def makeWebhookResult(req):
         # "contextOut": [],
         "source": "apiai-psychochatbot",
         "followupEvent": {
-            "name": "fruit"
+            "name": "I1"
         }
     }
 
