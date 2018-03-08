@@ -64,13 +64,13 @@ def makeWebhookResult(req):
     }
         
         
-     if req.get("result").get("action") == "occupation_":
-        result = req.get("result")
-        parameters = result.get("parameters")
-        occup=parameters.get("abc")
-        speech="your father is "+str(occup)
-        print(occup)
-        print(speech)
+    # if req.get("result").get("action") == "occupation_":
+     #   result = req.get("result")
+      #  parameters = result.get("parameters")
+       # occup=parameters.get("abc")
+        #speech="your father is "+str(occup)
+        #print(occup)
+        #print(speech)
 
     return {
         "speech": speech,
