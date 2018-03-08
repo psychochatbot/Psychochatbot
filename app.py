@@ -37,6 +37,16 @@ def makeWebhookResult(req):
     #speech="you are bhoot"
         print(zone)
         print(speech)
+        return {
+        "speech": speech,
+        "displayText": speech,
+        #"data": {},
+        # "contextOut": [],
+        "source": "apiai-psychochatbot",
+        "followupEvent": {
+            "name": "event_occupation_father"
+        }
+    }
         
     if req.get("result").get("action") == "occupation_name":
         result = req.get("result")
