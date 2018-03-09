@@ -90,19 +90,6 @@ def makeWebhookResult(req):
         }
     }
     
-     if req.get("result").get("action") == "want_to_be_father_no":
-        result = req.get("result")
-        return {
-        "speech": "vv",
-        "displayText": "vvv",
-       # "data": {},
-        #"contextOut": [],
-        "source": "apiai-psychochatbot",
-        "followupEvent": {
-           "name": "event_want_to_be_mother"
-        }
-    }
-    
     
     
         
