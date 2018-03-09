@@ -90,8 +90,8 @@ def makeWebhookResult(req):
         }
     }
     
-     if req.get("result").get("action") == "want_to_be_father.want_to_be_father-no":
-
+     if req.get("result").get("action") == "want_to_be_father_no":
+        result = req.get("result")
         return {
         "speech": "vv",
         "displayText": "vvv",
