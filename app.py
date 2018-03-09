@@ -58,7 +58,7 @@ def makeWebhookResult(req):
         parameters = result.get("parameters")
         occupation_father=parameters.get("f_o")
         speech="your father is "+str(occupation_father)
-        print(occup)
+       # print(occup)
         print(speech)
         return {
         "speech": speech,
@@ -77,7 +77,7 @@ def makeWebhookResult(req):
         parameters = result.get("parameters")
         occupation_mother=parameters.get("m_o")
         speech="your mother is "+str(occupation_mother)
-        print(occup)
+      #  print(occup)
         print(speech)
         return {
         "speech": speech,
