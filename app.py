@@ -72,7 +72,7 @@ def makeWebhookResult(req):
     }
     
     
-     if req.get("result").get("action") == "action_occupation_mother":
+    if req.get("result").get("action") == "action_occupation_mother":
         result = req.get("result")
         parameters = result.get("parameters")
         occupation_mother=parameters.get("m_o")
