@@ -84,6 +84,24 @@ def makeWebhookResult(req):
     }
     
     
+    if req.get("result").get("action") == "action_ask_about_family_yes":
+        result = req.get("result")
+       # parameters = result.get("parameters")
+       
+        speech="Okay, let's talk about your family"
+        print(speech)
+        return {
+        "speech": speech,
+        "displayText": speech,
+        #"data": {},
+        #"contextOut": [],
+        "source": "apiai-psychochatbot",
+        "followupEvent": {
+           "name": "event_occupation_father"
+        }
+    }
+    
+    
         
     if req.get("result").get("action") == "action_occupation_father":
         result = req.get("result")
