@@ -16,21 +16,11 @@ def verb_noun(tagged):
 	return hobbies
 	
 
-
-
-
-#sentence = """At eight o'clock on Thursday morning
-#... Arthur didn't feel very good."""
-#sentence2="""i'm not feeling good"""
-#sen3="""I would play guitar. I would paint. I would love to dance."""
 sen3="""I love to read and dance. I love listening to music while cooking at the same time. I love to explore new places and roam about. I love visiting historical places."""
-#sen4= """I am going to read this book in the flight"""
+
 tokens = nltk.word_tokenize(sen3)
-#tokens1 = nltk.word_tokenize(sen4)
-#print(tokens)
 tagged = nltk.pos_tag(tokens)
 print(tagged)
-#tagged1 = nltk.pos_tag(tokens1)
 hobby=verb_noun(tagged)
 print(hobby)
 #for word in tagged:
@@ -42,11 +32,9 @@ print(hobby)
 #for word in tagged:
 #	if(word[1]=="VB" or "VBD" or "VBN"):
 #		while(word[1]!="NN"):
-#			print("####")
 			#continue
 #		combi=word[0]
 		#print(combi)
 		
-#finding word after a noun
 
 
