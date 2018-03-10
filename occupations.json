@@ -1,0 +1,3116 @@
+[
+    {
+        "value": "Abattoir worker",
+        "synonyms": [
+            "Abattoir worker"
+        ]
+    },
+    {
+        "value": "Aboriginal and Torres Strait Islander health worker",
+        "synonyms": [
+            "Aboriginal and Torres Strait Islander health worker"
+        ]
+    },
+    {
+        "value": "Accountant",
+        "synonyms": [
+            "Accountant"
+        ]
+    },
+    {
+        "value": "Accounts clerk",
+        "synonyms": [
+            "Accounts clerk"
+        ]
+    },
+    {
+        "value": "Actor",
+        "synonyms": [
+            "Actor"
+        ]
+    },
+    {
+        "value": "Actuary",
+        "synonyms": [
+            "Actuary"
+        ]
+    },
+    {
+        "value": "Acupuncturist",
+        "synonyms": [
+            "Acupuncturist"
+        ]
+    },
+    {
+        "value": "Advertising specialist",
+        "synonyms": [
+            "Advertising specialist"
+        ]
+    },
+    {
+        "value": "Aeronautical engineer",
+        "synonyms": [
+            "Aeronautical engineer"
+        ]
+    },
+    {
+        "value": "Aeroplane pilot",
+        "synonyms": [
+            "Aeroplane pilot"
+        ]
+    },
+    {
+        "value": "Aged care worker",
+        "synonyms": [
+            "Aged care worker"
+        ]
+    },
+    {
+        "value": "Agricultural consultant",
+        "synonyms": [
+            "Agricultural consultant"
+        ]
+    },
+    {
+        "value": "Agricultural engineer",
+        "synonyms": [
+            "Agricultural engineer"
+        ]
+    },
+    {
+        "value": "Agricultural scientist",
+        "synonyms": [
+            "Agricultural scientist"
+        ]
+    },
+    {
+        "value": "Air combat officer",
+        "synonyms": [
+            "Air combat officer"
+        ]
+    },
+    {
+        "value": "Air force officer",
+        "synonyms": [
+            "Air force officer"
+        ]
+    },
+    {
+        "value": "Air force",
+        "synonyms": [
+            "Air force"
+        ]
+    },
+    {
+        "value": "Air traffic controller",
+        "synonyms": [
+            "Air traffic controller"
+        ]
+    },
+    {
+        "value": "Air-conditioning and refrigeration mechanic",
+        "synonyms": [
+            "Air-conditioning and refrigeration mechanic"
+        ]
+    },
+    {
+        "value": "Aircraft baggage handler and airline ground crew",
+        "synonyms": [
+            "Aircraft baggage handler and airline ground crew"
+        ]
+    },
+    {
+        "value": "Aircraft maintenance engineer",
+        "synonyms": [
+            "Aircraft maintenance engineer"
+        ]
+    },
+    {
+        "value": "Aircraft maintenance engineer",
+        "synonyms": [
+            "Aircraft maintenance engineer"
+        ]
+    },
+    {
+        "value": "Aircraft maintenance engineer ",
+        "synonyms": [
+            "Aircraft maintenance engineer "
+        ]
+    },
+    {
+        "value": "Alarm, security or surveillance monitor",
+        "synonyms": [
+            "Alarm, security or surveillance monitor"
+        ]
+    },
+    {
+        "value": "Ambulance officer",
+        "synonyms": [
+            "Ambulance officer"
+        ]
+    },
+    {
+        "value": "Anaesthetist",
+        "synonyms": [
+            "Anaesthetist"
+        ]
+    },
+    {
+        "value": "Animal attendants and trainers",
+        "synonyms": [
+            "Animal attendants and trainers"
+        ]
+    },
+    {
+        "value": "Aquaculture farmer",
+        "synonyms": [
+            "Aquaculture farmer"
+        ]
+    },
+    {
+        "value": "Arborist",
+        "synonyms": [
+            "Arborist"
+        ]
+    },
+    {
+        "value": "Archaeologist",
+        "synonyms": [
+            "Archaeologist"
+        ]
+    },
+    {
+        "value": "Architect",
+        "synonyms": [
+            "Architect"
+        ]
+    },
+    {
+        "value": "Architectural draftsperson",
+        "synonyms": [
+            "Architectural draftsperson"
+        ]
+    },
+    {
+        "value": "Archivist",
+        "synonyms": [
+            "Archivist"
+        ]
+    },
+    {
+        "value": "Army officer",
+        "synonyms": [
+            "Army officer"
+        ]
+    },
+    {
+        "value": "Army Soldier - Technician",
+        "synonyms": [
+            "Army Soldier - Technician"
+        ]
+    },
+    {
+        "value": "Art director ",
+        "synonyms": [
+            "Art director "
+        ]
+    },
+    {
+        "value": "Art teacher",
+        "synonyms": [
+            "Art teacher"
+        ]
+    },
+    {
+        "value": "Auctioneer",
+        "synonyms": [
+            "Auctioneer"
+        ]
+    },
+    {
+        "value": "Audiologist",
+        "synonyms": [
+            "Audiologist"
+        ]
+    },
+    {
+        "value": "Audiovisual technician",
+        "synonyms": [
+            "Audiovisual technician"
+        ]
+    },
+    {
+        "value": "Auditor ",
+        "synonyms": [
+            "Auditor "
+        ]
+    },
+    {
+        "value": "Author",
+        "synonyms": [
+            "Author"
+        ]
+    },
+    {
+        "value": "Automotive electrician",
+        "synonyms": [
+            "Automotive electrician"
+        ]
+    },
+    {
+        "value": "Baker",
+        "synonyms": [
+            "Baker"
+        ]
+    },
+    {
+        "value": "Bank worker",
+        "synonyms": [
+            "Bank worker"
+        ]
+    },
+    {
+        "value": "Bar attendant",
+        "synonyms": [
+            "Bar attendant"
+        ]
+    },
+    {
+        "value": "Barista",
+        "synonyms": [
+            "Barista"
+        ]
+    },
+    {
+        "value": "Barrister",
+        "synonyms": [
+            "Barrister"
+        ]
+    },
+    {
+        "value": "Beauty therapist",
+        "synonyms": [
+            "Beauty therapist"
+        ]
+    },
+    {
+        "value": "Beef cattle farmer",
+        "synonyms": [
+            "Beef cattle farmer"
+        ]
+    },
+    {
+        "value": "Bicycle mechanic",
+        "synonyms": [
+            "Bicycle mechanic"
+        ]
+    },
+    {
+        "value": "Binder and finisher",
+        "synonyms": [
+            "Binder and finisher"
+        ]
+    },
+    {
+        "value": "Biomedical engineer",
+        "synonyms": [
+            "Biomedical engineer"
+        ]
+    },
+    {
+        "value": "Biosecurity officer",
+        "synonyms": [
+            "Biosecurity officer"
+        ]
+    },
+    {
+        "value": "Biotechnologist",
+        "synonyms": [
+            "Biotechnologist"
+        ]
+    },
+    {
+        "value": "Boat builder and repairer",
+        "synonyms": [
+            "Boat builder and repairer"
+        ]
+    },
+    {
+        "value": "Body artist or tattooist",
+        "synonyms": [
+            "Body artist or tattooist"
+        ]
+    },
+    {
+        "value": "Boiler or engine operator",
+        "synonyms": [
+            "Boiler or engine operator"
+        ]
+    },
+    {
+        "value": "Book or script editor",
+        "synonyms": [
+            "Book or script editor"
+        ]
+    },
+    {
+        "value": "Bookkeeper",
+        "synonyms": [
+            "Bookkeeper"
+        ]
+    },
+    {
+        "value": "Bookmaker",
+        "synonyms": [
+            "Bookmaker"
+        ]
+    },
+    {
+        "value": "Botanist",
+        "synonyms": [
+            "Botanist"
+        ]
+    },
+    {
+        "value": "Brewer",
+        "synonyms": [
+            "Brewer"
+        ]
+    },
+    {
+        "value": "Bricklayer",
+        "synonyms": [
+            "Bricklayer"
+        ]
+    },
+    {
+        "value": "Broadcast transmitter operator",
+        "synonyms": [
+            "Broadcast transmitter operator"
+        ]
+    },
+    {
+        "value": "Builder's Labourer",
+        "synonyms": [
+            "Builder's Labourer"
+        ]
+    },
+    {
+        "value": "Building insulation installer",
+        "synonyms": [
+            "Building insulation installer"
+        ]
+    },
+    {
+        "value": "Building surveyor",
+        "synonyms": [
+            "Building surveyor"
+        ]
+    },
+    {
+        "value": "Bus driver",
+        "synonyms": [
+            "Bus driver"
+        ]
+    },
+    {
+        "value": "Business machine mechanic",
+        "synonyms": [
+            "Business machine mechanic"
+        ]
+    },
+    {
+        "value": "Butcher or smallgoods maker",
+        "synonyms": [
+            "Butcher or smallgoods maker"
+        ]
+    },
+    {
+        "value": "Cabinetmaker",
+        "synonyms": [
+            "Cabinetmaker"
+        ]
+    },
+    {
+        "value": "Cafe or restaurant manager",
+        "synonyms": [
+            "Cafe or restaurant manager"
+        ]
+    },
+    {
+        "value": "Call or contact centre operator",
+        "synonyms": [
+            "Call or contact centre operator"
+        ]
+    },
+    {
+        "value": "Call or contact centre team leader",
+        "synonyms": [
+            "Call or contact centre team leader"
+        ]
+    },
+    {
+        "value": "Camera operator",
+        "synonyms": [
+            "Camera operator"
+        ]
+    },
+    {
+        "value": "Canvas goods fabricator",
+        "synonyms": [
+            "Canvas goods fabricator"
+        ]
+    },
+    {
+        "value": "Car park attendant",
+        "synonyms": [
+            "Car park attendant"
+        ]
+    },
+    {
+        "value": "Cardiologist",
+        "synonyms": [
+            "Cardiologist"
+        ]
+    },
+    {
+        "value": "Cardiothoracic surgeon",
+        "synonyms": [
+            "Cardiothoracic surgeon"
+        ]
+    },
+    {
+        "value": "Careers counsellor",
+        "synonyms": [
+            "Careers counsellor"
+        ]
+    },
+    {
+        "value": "Carpenter",
+        "synonyms": [
+            "Carpenter"
+        ]
+    },
+    {
+        "value": "Cartographer",
+        "synonyms": [
+            "Cartographer"
+        ]
+    },
+    {
+        "value": "Chef",
+        "synonyms": [
+            "Chef"
+        ]
+    },
+    {
+        "value": "Chemical engineer",
+        "synonyms": [
+            "Chemical engineer"
+        ]
+    },
+    {
+        "value": "Chemist",
+        "synonyms": [
+            "Chemist"
+        ]
+    },
+    {
+        "value": "Chief executive or managing director",
+        "synonyms": [
+            "Chief executive or managing director"
+        ]
+    },
+    {
+        "value": "Child care centre manager",
+        "synonyms": [
+            "Child care centre manager"
+        ]
+    },
+    {
+        "value": "Child protection worker",
+        "synonyms": [
+            "Child protection worker"
+        ]
+    },
+    {
+        "value": "Chiropractor",
+        "synonyms": [
+            "Chiropractor"
+        ]
+    },
+    {
+        "value": "Cinema or theatre manager",
+        "synonyms": [
+            "Cinema or theatre manager"
+        ]
+    },
+    {
+        "value": "Civil celebrant",
+        "synonyms": [
+            "Civil celebrant"
+        ]
+    },
+    {
+        "value": "Civil engineer",
+        "synonyms": [
+            "Civil engineer"
+        ]
+    },
+    {
+        "value": "Civil engineering draftsperson",
+        "synonyms": [
+            "Civil engineering draftsperson"
+        ]
+    },
+    {
+        "value": "Civil engineering technician",
+        "synonyms": [
+            "Civil engineering technician"
+        ]
+    },
+    {
+        "value": "Clay, concrete, glass or stone machine operator",
+        "synonyms": [
+            "Clay, concrete, glass or stone machine operator"
+        ]
+    },
+    {
+        "value": "Clinical haematologist",
+        "synonyms": [
+            "Clinical haematologist"
+        ]
+    },
+    {
+        "value": "Clinical psychologist",
+        "synonyms": [
+            "Clinical psychologist"
+        ]
+    },
+    {
+        "value": "Clothing production worker",
+        "synonyms": [
+            "Clothing production worker"
+        ]
+    },
+    {
+        "value": "Coastal engineer",
+        "synonyms": [
+            "Coastal engineer"
+        ]
+    },
+    {
+        "value": "Commercial cleaner",
+        "synonyms": [
+            "Commercial cleaner"
+        ]
+    },
+    {
+        "value": "housekeeper",
+        "synonyms": [
+            "housekeeper"
+        ]
+    },
+    {
+        "value": "Commodities trader",
+        "synonyms": [
+            "Commodities trader"
+        ]
+    },
+    {
+        "value": "Communications operator",
+        "synonyms": [
+            "Communications operator"
+        ]
+    },
+    {
+        "value": "Community corrections officer",
+        "synonyms": [
+            "Community corrections officer"
+        ]
+    },
+    {
+        "value": "Community worker",
+        "synonyms": [
+            "Community worker"
+        ]
+    },
+    {
+        "value": "Computer engineer",
+        "synonyms": [
+            "Computer engineer"
+        ]
+    },
+    {
+        "value": "CAD technician",
+        "synonyms": [
+            "CAD technician"
+        ]
+    },
+    {
+        "value": "Concierge",
+        "synonyms": [
+            "Concierge"
+        ]
+    },
+    {
+        "value": "Concreter",
+        "synonyms": [
+            "Concreter"
+        ]
+    },
+    {
+        "value": "Confectionery maker",
+        "synonyms": [
+            "Confectionery maker"
+        ]
+    },
+    {
+        "value": "Conference and event organiser",
+        "synonyms": [
+            "Conference and event organiser"
+        ]
+    },
+    {
+        "value": "Conservation Officer",
+        "synonyms": [
+            "Conservation Officer"
+        ]
+    },
+    {
+        "value": "Conservator",
+        "synonyms": [
+            "Conservator"
+        ]
+    },
+    {
+        "value": "Construction estimator",
+        "synonyms": [
+            "Construction estimator"
+        ]
+    },
+    {
+        "value": "Construction project manager",
+        "synonyms": [
+            "Construction project manager"
+        ]
+    },
+    {
+        "value": "Construction rigger",
+        "synonyms": [
+            "Construction rigger"
+        ]
+    },
+    {
+        "value": "Contract Administrator",
+        "synonyms": [
+            "Contract Administrator"
+        ]
+    },
+    {
+        "value": "Cook",
+        "synonyms": [
+            "Cook"
+        ]
+    },
+    {
+        "value": "Copywriter",
+        "synonyms": [
+            "Copywriter"
+        ]
+    },
+    {
+        "value": "Corporate general manager",
+        "synonyms": [
+            "Corporate general manager"
+        ]
+    },
+    {
+        "value": "Counsellor",
+        "synonyms": [
+            "Counsellor"
+        ]
+    },
+    {
+        "value": "Court bailiff or sheriff",
+        "synonyms": [
+            "Court bailiff or sheriff"
+        ]
+    },
+    {
+        "value": "Coxswain",
+        "synonyms": [
+            "Coxswain"
+        ]
+    },
+    {
+        "value": "Crane chaser",
+        "synonyms": [
+            "Crane chaser"
+        ]
+    },
+    {
+        "value": "Crane, hoist or lift operator",
+        "synonyms": [
+            "Crane, hoist or lift operator"
+        ]
+    },
+    {
+        "value": "Customer service manager",
+        "synonyms": [
+            "Customer service manager"
+        ]
+    },
+    {
+        "value": "Customs officer",
+        "synonyms": [
+            "Customs officer"
+        ]
+    },
+    {
+        "value": "Dairy cattle farmer",
+        "synonyms": [
+            "Dairy cattle farmer"
+        ]
+    },
+    {
+        "value": "Dancer or choreographer",
+        "synonyms": [
+            "Dancer or choreographer"
+        ]
+    },
+    {
+        "value": "Debt collector",
+        "synonyms": [
+            "Debt collector"
+        ]
+    },
+    {
+        "value": "Deck hand",
+        "synonyms": [
+            "Deck hand"
+        ]
+    },
+    {
+        "value": "Delivery driver",
+        "synonyms": [
+            "Delivery driver"
+        ]
+    },
+    {
+        "value": "Dental assistant",
+        "synonyms": [
+            "Dental assistant"
+        ]
+    },
+    {
+        "value": "Dental hygienist",
+        "synonyms": [
+            "Dental hygienist"
+        ]
+    },
+    {
+        "value": "Dental specialist",
+        "synonyms": [
+            "Dental specialist"
+        ]
+    },
+    {
+        "value": "Dental technician",
+        "synonyms": [
+            "Dental technician"
+        ]
+    },
+    {
+        "value": "Dental therapist",
+        "synonyms": [
+            "Dental therapist"
+        ]
+    },
+    {
+        "value": "Dentist",
+        "synonyms": [
+            "Dentist"
+        ]
+    },
+    {
+        "value": "Dermatologist",
+        "synonyms": [
+            "Dermatologist"
+        ]
+    },
+    {
+        "value": "Developer programmer",
+        "synonyms": [
+            "Developer programmer"
+        ]
+    },
+    {
+        "value": "Diesel motor mechanic",
+        "synonyms": [
+            "Diesel motor mechanic"
+        ]
+    },
+    {
+        "value": "Dietitian",
+        "synonyms": [
+            "Dietitian"
+        ]
+    },
+    {
+        "value": "Director ",
+        "synonyms": [
+            "Director "
+        ]
+    },
+    {
+        "value": "Disability services officer",
+        "synonyms": [
+            "Disability services officer"
+        ]
+    },
+    {
+        "value": "Disability worker",
+        "synonyms": [
+            "Disability worker"
+        ]
+    },
+    {
+        "value": "Diver",
+        "synonyms": [
+            "Diver"
+        ]
+    },
+    {
+        "value": "Diversional therapist",
+        "synonyms": [
+            "Diversional therapist"
+        ]
+    },
+    {
+        "value": "Dog handler or trainer",
+        "synonyms": [
+            "Dog handler or trainer"
+        ]
+    },
+    {
+        "value": "Domestic cleaner",
+        "synonyms": [
+            "Domestic cleaner"
+        ]
+    },
+    {
+        "value": "Doorperson or luggage porter",
+        "synonyms": [
+            "Doorperson or luggage porter"
+        ]
+    },
+    {
+        "value": "Driller",
+        "synonyms": [
+            "Driller"
+        ]
+    },
+    {
+        "value": "Drilling engineer",
+        "synonyms": [
+            "Drilling engineer"
+        ]
+    },
+    {
+        "value": "Driving instructor",
+        "synonyms": [
+            "Driving instructor"
+        ]
+    },
+    {
+        "value": "Drug and alcohol counsellor",
+        "synonyms": [
+            "Drug and alcohol counsellor"
+        ]
+    },
+    {
+        "value": "Drycleaner",
+        "synonyms": [
+            "Drycleaner"
+        ]
+    },
+    {
+        "value": "primary school",
+        "synonyms": [
+            "primary school"
+        ]
+    },
+    {
+        "value": "Early childhood educator",
+        "synonyms": [
+            "Early childhood educator"
+        ]
+    },
+    {
+        "value": "Earth science technician",
+        "synonyms": [
+            "Earth science technician"
+        ]
+    },
+    {
+        "value": "Earthmoving plant operator",
+        "synonyms": [
+            "Earthmoving plant operator"
+        ]
+    },
+    {
+        "value": "Economist",
+        "synonyms": [
+            "Economist"
+        ]
+    },
+    {
+        "value": "Electorate officer",
+        "synonyms": [
+            "Electorate officer"
+        ]
+    },
+    {
+        "value": "Electrical engineer",
+        "synonyms": [
+            "Electrical engineer"
+        ]
+    },
+    {
+        "value": "Electrical engineering draftsperson",
+        "synonyms": [
+            "Electrical engineering draftsperson"
+        ]
+    },
+    {
+        "value": "Electrical engineering technician",
+        "synonyms": [
+            "Electrical engineering technician"
+        ]
+    },
+    {
+        "value": "Electrical linesworker ",
+        "synonyms": [
+            "Electrical linesworker "
+        ]
+    },
+    {
+        "value": "Electrician ",
+        "synonyms": [
+            "Electrician "
+        ]
+    },
+    {
+        "value": "Electronic engineering technician",
+        "synonyms": [
+            "Electronic engineering technician"
+        ]
+    },
+    {
+        "value": "Electronic equipment trades worker",
+        "synonyms": [
+            "Electronic equipment trades worker"
+        ]
+    },
+    {
+        "value": "Electronic instrument trades worker",
+        "synonyms": [
+            "Electronic instrument trades worker"
+        ]
+    },
+    {
+        "value": "Electronics engineer",
+        "synonyms": [
+            "Electronics engineer"
+        ]
+    },
+    {
+        "value": "Electroplater",
+        "synonyms": [
+            "Electroplater"
+        ]
+    },
+    {
+        "value": "Embalmer",
+        "synonyms": [
+            "Embalmer"
+        ]
+    },
+    {
+        "value": "Emergency medicine specialist",
+        "synonyms": [
+            "Emergency medicine specialist"
+        ]
+    },
+    {
+        "value": "Endocrinologist",
+        "synonyms": [
+            "Endocrinologist"
+        ]
+    },
+    {
+        "value": "Engineering patternmaker",
+        "synonyms": [
+            "Engineering patternmaker"
+        ]
+    },
+    {
+        "value": "Engraver",
+        "synonyms": [
+            "Engraver"
+        ]
+    },
+    {
+        "value": "Enrolled nurse",
+        "synonyms": [
+            "Enrolled nurse"
+        ]
+    },
+    {
+        "value": "Entertainer or variety artist",
+        "synonyms": [
+            "Entertainer or variety artist"
+        ]
+    },
+    {
+        "value": "Entrepreneur",
+        "synonyms": [
+            "Entrepreneur"
+        ]
+    },
+    {
+        "value": "Environmental consultant",
+        "synonyms": [
+            "Environmental consultant"
+        ]
+    },
+    {
+        "value": "Environmental engineer",
+        "synonyms": [
+            "Environmental engineer"
+        ]
+    },
+    {
+        "value": "Environmental health officer",
+        "synonyms": [
+            "Environmental health officer"
+        ]
+    },
+    {
+        "value": "Environmental manager",
+        "synonyms": [
+            "Environmental manager"
+        ]
+    },
+    {
+        "value": "Environmental research scientist",
+        "synonyms": [
+            "Environmental research scientist"
+        ]
+    },
+    {
+        "value": "Exercise scientist",
+        "synonyms": [
+            "Exercise scientist"
+        ]
+    },
+    {
+        "value": "Facilities manager",
+        "synonyms": [
+            "Facilities manager"
+        ]
+    },
+    {
+        "value": "Farm manager",
+        "synonyms": [
+            "Farm manager"
+        ]
+    },
+    {
+        "value": "Fashion designer",
+        "synonyms": [
+            "Fashion designer"
+        ]
+    },
+    {
+        "value": "Fast food cook",
+        "synonyms": [
+            "Fast food cook"
+        ]
+    },
+    {
+        "value": "Film and video producer",
+        "synonyms": [
+            "Film and video producer"
+        ]
+    },
+    {
+        "value": "Finance broker",
+        "synonyms": [
+            "Finance broker"
+        ]
+    },
+    {
+        "value": "Financial institution branch manager",
+        "synonyms": [
+            "Financial institution branch manager"
+        ]
+    },
+    {
+        "value": "Financial investment adviser",
+        "synonyms": [
+            "Financial investment adviser"
+        ]
+    },
+    {
+        "value": "Financial investment manager",
+        "synonyms": [
+            "Financial investment manager"
+        ]
+    },
+    {
+        "value": "Fire fighter",
+        "synonyms": [
+            "Fire fighter"
+        ]
+    },
+    {
+        "value": "Fisheries officer",
+        "synonyms": [
+            "Fisheries officer"
+        ]
+    },
+    {
+        "value": "Fishing hand",
+        "synonyms": [
+            "Fishing hand"
+        ]
+    },
+    {
+        "value": "Fitness instructor",
+        "synonyms": [
+            "Fitness instructor"
+        ]
+    },
+    {
+        "value": "Flight attendant",
+        "synonyms": [
+            "Flight attendant"
+        ]
+    },
+    {
+        "value": "Floor finisher",
+        "synonyms": [
+            "Floor finisher"
+        ]
+    },
+    {
+        "value": "Florist",
+        "synonyms": [
+            "Florist"
+        ]
+    },
+    {
+        "value": "Flying instructor",
+        "synonyms": [
+            "Flying instructor"
+        ]
+    },
+    {
+        "value": "Food processing worker",
+        "synonyms": [
+            "Food processing worker"
+        ]
+    },
+    {
+        "value": "Food technologist",
+        "synonyms": [
+            "Food technologist"
+        ]
+    },
+    {
+        "value": "Forensic scientist",
+        "synonyms": [
+            "Forensic scientist"
+        ]
+    },
+    {
+        "value": "Forester",
+        "synonyms": [
+            "Forester"
+        ]
+    },
+    {
+        "value": "Forklift driver",
+        "synonyms": [
+            "Forklift driver"
+        ]
+    },
+    {
+        "value": "Fruit and vegetable picker",
+        "synonyms": [
+            "Fruit and vegetable picker"
+        ]
+    },
+    {
+        "value": "Funeral director",
+        "synonyms": [
+            "Funeral director"
+        ]
+    },
+    {
+        "value": "Furniture finisher",
+        "synonyms": [
+            "Furniture finisher"
+        ]
+    },
+    {
+        "value": "Furniture removalist",
+        "synonyms": [
+            "Furniture removalist"
+        ]
+    },
+    {
+        "value": "Gallery or museum curator",
+        "synonyms": [
+            "Gallery or museum curator"
+        ]
+    },
+    {
+        "value": "Gallery or museum guide",
+        "synonyms": [
+            "Gallery or museum guide"
+        ]
+    },
+    {
+        "value": "Gallery or museum technician",
+        "synonyms": [
+            "Gallery or museum technician"
+        ]
+    },
+    {
+        "value": "Game developer",
+        "synonyms": [
+            "Game developer"
+        ]
+    },
+    {
+        "value": "Gaming worker",
+        "synonyms": [
+            "Gaming worker"
+        ]
+    },
+    {
+        "value": "Gardener",
+        "synonyms": [
+            "Gardener"
+        ]
+    },
+    {
+        "value": "Gasfitter",
+        "synonyms": [
+            "Gasfitter"
+        ]
+    },
+    {
+        "value": "Gastroenterologist",
+        "synonyms": [
+            "Gastroenterologist"
+        ]
+    },
+    {
+        "value": "General clerk",
+        "synonyms": [
+            "General clerk"
+        ]
+    },
+    {
+        "value": "General medical practitioner",
+        "synonyms": [
+            "General medical practitioner"
+        ]
+    },
+    {
+        "value": "Geologist",
+        "synonyms": [
+            "Geologist"
+        ]
+    },
+    {
+        "value": "Geophysicist",
+        "synonyms": [
+            "Geophysicist"
+        ]
+    },
+    {
+        "value": "Geotechnical engineer",
+        "synonyms": [
+            "Geotechnical engineer"
+        ]
+    },
+    {
+        "value": "Glazier",
+        "synonyms": [
+            "Glazier"
+        ]
+    },
+    {
+        "value": "Goldsmith",
+        "synonyms": [
+            "Goldsmith"
+        ]
+    },
+    {
+        "value": "Grain oilseed or pasture grower",
+        "synonyms": [
+            "Grain oilseed or pasture grower"
+        ]
+    },
+    {
+        "value": "Grape grower",
+        "synonyms": [
+            "Grape grower"
+        ]
+    },
+    {
+        "value": "Graphic designer",
+        "synonyms": [
+            "Graphic designer"
+        ]
+    },
+    {
+        "value": "Graphic pre-press trades worker",
+        "synonyms": [
+            "Graphic pre-press trades worker"
+        ]
+    },
+    {
+        "value": "Greenkeeper",
+        "synonyms": [
+            "Greenkeeper"
+        ]
+    },
+    {
+        "value": "Gunsmith",
+        "synonyms": [
+            "Gunsmith"
+        ]
+    },
+    {
+        "value": "Gynaecologist",
+        "synonyms": [
+            "Gynaecologist"
+        ]
+    },
+    {
+        "value": "Hairdresser",
+        "synonyms": [
+            "Hairdresser"
+        ]
+    },
+    {
+        "value": "Handyperson",
+        "synonyms": [
+            "Handyperson"
+        ]
+    },
+    {
+        "value": "Health information manager",
+        "synonyms": [
+            "Health information manager"
+        ]
+    },
+    {
+        "value": "Health promotion officer",
+        "synonyms": [
+            "Health promotion officer"
+        ]
+    },
+    {
+        "value": "Helicopter pilot",
+        "synonyms": [
+            "Helicopter pilot"
+        ]
+    },
+    {
+        "value": "Historian",
+        "synonyms": [
+            "Historian"
+        ]
+    },
+    {
+        "value": "Horse trainer",
+        "synonyms": [
+            "Horse trainer"
+        ]
+    },
+    {
+        "value": "Hospital pharmacist",
+        "synonyms": [
+            "Hospital pharmacist"
+        ]
+    },
+    {
+        "value": "Hotel or motel manager",
+        "synonyms": [
+            "Hotel or motel manager"
+        ]
+    },
+    {
+        "value": "Human resource adviser",
+        "synonyms": [
+            "Human resource adviser"
+        ]
+    },
+    {
+        "value": "Human resource manager",
+        "synonyms": [
+            "Human resource manager"
+        ]
+    },
+    {
+        "value": "Hydrologist",
+        "synonyms": [
+            "Hydrologist"
+        ]
+    },
+    {
+        "value": "ICT business analyst",
+        "synonyms": [
+            "ICT business analyst"
+        ]
+    },
+    {
+        "value": "ICT project manager",
+        "synonyms": [
+            "ICT project manager"
+        ]
+    },
+    {
+        "value": "ICT security specialist",
+        "synonyms": [
+            "ICT security specialist"
+        ]
+    },
+    {
+        "value": "ICT support technician",
+        "synonyms": [
+            "ICT support technician"
+        ]
+    },
+    {
+        "value": "ICT systems test engineer",
+        "synonyms": [
+            "ICT systems test engineer"
+        ]
+    },
+    {
+        "value": "Immigration officer",
+        "synonyms": [
+            "Immigration officer"
+        ]
+    },
+    {
+        "value": "Industrial designer",
+        "synonyms": [
+            "Industrial designer"
+        ]
+    },
+    {
+        "value": "Industrial engineer",
+        "synonyms": [
+            "Industrial engineer"
+        ]
+    },
+    {
+        "value": "Industrial pharmacist",
+        "synonyms": [
+            "Industrial pharmacist"
+        ]
+    },
+    {
+        "value": "Information technology administrator",
+        "synonyms": [
+            "Information technology administrator"
+        ]
+    },
+    {
+        "value": "Insurance agent",
+        "synonyms": [
+            "Insurance agent"
+        ]
+    },
+    {
+        "value": "Insurance broker",
+        "synonyms": [
+            "Insurance broker"
+        ]
+    },
+    {
+        "value": "Intelligence officer",
+        "synonyms": [
+            "Intelligence officer"
+        ]
+    },
+    {
+        "value": "Intensive care specialist",
+        "synonyms": [
+            "Intensive care specialist"
+        ]
+    },
+    {
+        "value": "Interior designer",
+        "synonyms": [
+            "Interior designer"
+        ]
+    },
+    {
+        "value": "Interpreter",
+        "synonyms": [
+            "Interpreter"
+        ]
+    },
+    {
+        "value": "Jackeroo/Jillaroo",
+        "synonyms": [
+            "Jackeroo/Jillaroo"
+        ]
+    },
+    {
+        "value": "Jewellery designer",
+        "synonyms": [
+            "Jewellery designer"
+        ]
+    },
+    {
+        "value": "Jockey",
+        "synonyms": [
+            "Jockey"
+        ]
+    },
+    {
+        "value": "Joiner",
+        "synonyms": [
+            "Joiner"
+        ]
+    },
+    {
+        "value": "Journalist",
+        "synonyms": [
+            "Journalist"
+        ]
+    },
+    {
+        "value": "Judge",
+        "synonyms": [
+            "Judge"
+        ]
+    },
+    {
+        "value": "Kitchenhand",
+        "synonyms": [
+            "Kitchenhand"
+        ]
+    },
+    {
+        "value": "Laboratory manager",
+        "synonyms": [
+            "Laboratory manager"
+        ]
+    },
+    {
+        "value": "Laboratory technician",
+        "synonyms": [
+            "Laboratory technician"
+        ]
+    },
+    {
+        "value": "Landscape architect",
+        "synonyms": [
+            "Landscape architect"
+        ]
+    },
+    {
+        "value": "Landscape gardener",
+        "synonyms": [
+            "Landscape gardener"
+        ]
+    },
+    {
+        "value": "Laundry worker ",
+        "synonyms": [
+            "Laundry worker "
+        ]
+    },
+    {
+        "value": "Law clerk",
+        "synonyms": [
+            "Law clerk"
+        ]
+    },
+    {
+        "value": "Legal secretary",
+        "synonyms": [
+            "Legal secretary"
+        ]
+    },
+    {
+        "value": "Librarian",
+        "synonyms": [
+            "Librarian"
+        ]
+    },
+    {
+        "value": "Library assistant",
+        "synonyms": [
+            "Library assistant"
+        ]
+    },
+    {
+        "value": "Library technician",
+        "synonyms": [
+            "Library technician"
+        ]
+    },
+    {
+        "value": "Lifeguard",
+        "synonyms": [
+            "Lifeguard"
+        ]
+    },
+    {
+        "value": "Light technician",
+        "synonyms": [
+            "Light technician"
+        ]
+    },
+    {
+        "value": "Locksmith",
+        "synonyms": [
+            "Locksmith"
+        ]
+    },
+    {
+        "value": "Logistics clerk",
+        "synonyms": [
+            "Logistics clerk"
+        ]
+    },
+    {
+        "value": "Laboratory manager",
+        "synonyms": [
+            "Laboratory manager"
+        ]
+    },
+    {
+        "value": "Laboratory technician",
+        "synonyms": [
+            "Laboratory technician"
+        ]
+    },
+    {
+        "value": "Landscape architect",
+        "synonyms": [
+            "Landscape architect"
+        ]
+    },
+    {
+        "value": "Landscape gardener",
+        "synonyms": [
+            "Landscape gardener"
+        ]
+    },
+    {
+        "value": "Laundry worker ",
+        "synonyms": [
+            "Laundry worker "
+        ]
+    },
+    {
+        "value": "Law clerk",
+        "synonyms": [
+            "Law clerk"
+        ]
+    },
+    {
+        "value": "Legal secretary",
+        "synonyms": [
+            "Legal secretary"
+        ]
+    },
+    {
+        "value": "Librarian",
+        "synonyms": [
+            "Librarian"
+        ]
+    },
+    {
+        "value": "Library assistant",
+        "synonyms": [
+            "Library assistant"
+        ]
+    },
+    {
+        "value": "Library technician",
+        "synonyms": [
+            "Library technician"
+        ]
+    },
+    {
+        "value": "Lifeguard",
+        "synonyms": [
+            "Lifeguard"
+        ]
+    },
+    {
+        "value": "Light technician",
+        "synonyms": [
+            "Light technician"
+        ]
+    },
+    {
+        "value": "Locksmith",
+        "synonyms": [
+            "Locksmith"
+        ]
+    },
+    {
+        "value": "Logistics clerk",
+        "synonyms": [
+            "Logistics clerk"
+        ]
+    },
+    {
+        "value": "Nanny",
+        "synonyms": [
+            "Nanny"
+        ]
+    },
+    {
+        "value": "Naturopath",
+        "synonyms": [
+            "Naturopath"
+        ]
+    },
+    {
+        "value": "Naval architect",
+        "synonyms": [
+            "Naval architect"
+        ]
+    },
+    {
+        "value": "Navy sailor",
+        "synonyms": [
+            "Navy sailor"
+        ]
+    },
+    {
+        "value": "Navy technician",
+        "synonyms": [
+            "Navy technician"
+        ]
+    },
+    {
+        "value": "Network administrator",
+        "synonyms": [
+            "Network administrator"
+        ]
+    },
+    {
+        "value": "Network engineer",
+        "synonyms": [
+            "Network engineer"
+        ]
+    },
+    {
+        "value": "Neurologist",
+        "synonyms": [
+            "Neurologist"
+        ]
+    },
+    {
+        "value": "Neurosurgeon",
+        "synonyms": [
+            "Neurosurgeon"
+        ]
+    },
+    {
+        "value": "Nuclear medicine technologist",
+        "synonyms": [
+            "Nuclear medicine technologist"
+        ]
+    },
+    {
+        "value": "Nurse educator",
+        "synonyms": [
+            "Nurse educator"
+        ]
+    },
+    {
+        "value": "Nurse manager",
+        "synonyms": [
+            "Nurse manager"
+        ]
+    },
+    {
+        "value": "Nurse practitioner",
+        "synonyms": [
+            "Nurse practitioner"
+        ]
+    },
+    {
+        "value": "Nurseryperson",
+        "synonyms": [
+            "Nurseryperson"
+        ]
+    },
+    {
+        "value": "Nursing clinical director",
+        "synonyms": [
+            "Nursing clinical director"
+        ]
+    },
+    {
+        "value": "Nursing support worker",
+        "synonyms": [
+            "Nursing support worker"
+        ]
+    },
+    {
+        "value": "Nutritionist",
+        "synonyms": [
+            "Nutritionist"
+        ]
+    },
+    {
+        "value": "Obstetrician",
+        "synonyms": [
+            "Obstetrician"
+        ]
+    },
+    {
+        "value": "Occupational health and safety adviser",
+        "synonyms": [
+            "Occupational health and safety adviser"
+        ]
+    },
+    {
+        "value": "Occupational therapist",
+        "synonyms": [
+            "Occupational therapist"
+        ]
+    },
+    {
+        "value": "Office manager",
+        "synonyms": [
+            "Office manager"
+        ]
+    },
+    {
+        "value": "Offset printer",
+        "synonyms": [
+            "Offset printer"
+        ]
+    },
+    {
+        "value": "Ophthalmologist",
+        "synonyms": [
+            "Ophthalmologist"
+        ]
+    },
+    {
+        "value": "Optical mechanic",
+        "synonyms": [
+            "Optical mechanic"
+        ]
+    },
+    {
+        "value": "Optometrist",
+        "synonyms": [
+            "Optometrist"
+        ]
+    },
+    {
+        "value": "Orthopaedic surgeon",
+        "synonyms": [
+            "Orthopaedic surgeon"
+        ]
+    },
+    {
+        "value": "Orthoptist",
+        "synonyms": [
+            "Orthoptist"
+        ]
+    },
+    {
+        "value": "Orthotist or prosthetist",
+        "synonyms": [
+            "Orthotist or prosthetist"
+        ]
+    },
+    {
+        "value": "Osteopath",
+        "synonyms": [
+            "Osteopath"
+        ]
+    },
+    {
+        "value": "Otorhinolaryngologist",
+        "synonyms": [
+            "Otorhinolaryngologist"
+        ]
+    },
+    {
+        "value": "Outdoor adventure instructor",
+        "synonyms": [
+            "Outdoor adventure instructor"
+        ]
+    },
+    {
+        "value": "Paediatric surgeon",
+        "synonyms": [
+            "Paediatric surgeon"
+        ]
+    },
+    {
+        "value": "Paediatrician",
+        "synonyms": [
+            "Paediatrician"
+        ]
+    },
+    {
+        "value": "Painting trades worker",
+        "synonyms": [
+            "Painting trades worker"
+        ]
+    },
+    {
+        "value": "Panelbeater",
+        "synonyms": [
+            "Panelbeater"
+        ]
+    },
+    {
+        "value": "Park ranger",
+        "synonyms": [
+            "Park ranger"
+        ]
+    },
+    {
+        "value": "Parking inspector",
+        "synonyms": [
+            "Parking inspector"
+        ]
+    },
+    {
+        "value": "Pastrycook",
+        "synonyms": [
+            "Pastrycook"
+        ]
+    },
+    {
+        "value": "Pathologist",
+        "synonyms": [
+            "Pathologist"
+        ]
+    },
+    {
+        "value": "Patient care assistant",
+        "synonyms": [
+            "Patient care assistant"
+        ]
+    },
+    {
+        "value": "Payroll clerk",
+        "synonyms": [
+            "Payroll clerk"
+        ]
+    },
+    {
+        "value": "Personal assistant",
+        "synonyms": [
+            "Personal assistant"
+        ]
+    },
+    {
+        "value": "Pest controller",
+        "synonyms": [
+            "Pest controller"
+        ]
+    },
+    {
+        "value": "Pet groomer",
+        "synonyms": [
+            "Pet groomer"
+        ]
+    },
+    {
+        "value": "Petroleum engineer",
+        "synonyms": [
+            "Petroleum engineer"
+        ]
+    },
+    {
+        "value": "Petrophysicist",
+        "synonyms": [
+            "Petrophysicist"
+        ]
+    },
+    {
+        "value": "Pharmacist",
+        "synonyms": [
+            "Pharmacist"
+        ]
+    },
+    {
+        "value": "Pharmacologist",
+        "synonyms": [
+            "Pharmacologist"
+        ]
+    },
+    {
+        "value": "Pharmacy technician",
+        "synonyms": [
+            "Pharmacy technician"
+        ]
+    },
+    {
+        "value": "Photographer",
+        "synonyms": [
+            "Photographer"
+        ]
+    },
+    {
+        "value": "Photographer's assistant",
+        "synonyms": [
+            "Photographer's assistant"
+        ]
+    },
+    {
+        "value": "PE teacher",
+        "synonyms": [
+            "PE teacher"
+        ]
+    },
+    {
+        "value": "Physicist",
+        "synonyms": [
+            "Physicist"
+        ]
+    },
+    {
+        "value": "Physiotherapist",
+        "synonyms": [
+            "Physiotherapist"
+        ]
+    },
+    {
+        "value": "Picture framer",
+        "synonyms": [
+            "Picture framer"
+        ]
+    },
+    {
+        "value": "Plant mechanic",
+        "synonyms": [
+            "Plant mechanic"
+        ]
+    },
+    {
+        "value": "Plastic and reconstructive surgeon",
+        "synonyms": [
+            "Plastic and reconstructive surgeon"
+        ]
+    },
+    {
+        "value": "Plastics technician",
+        "synonyms": [
+            "Plastics technician"
+        ]
+    },
+    {
+        "value": "Plumber ",
+        "synonyms": [
+            "Plumber "
+        ]
+    },
+    {
+        "value": "Podiatrist",
+        "synonyms": [
+            "Podiatrist"
+        ]
+    },
+    {
+        "value": "Police officer",
+        "synonyms": [
+            "Police officer"
+        ]
+    },
+    {
+        "value": "Policy analyst",
+        "synonyms": [
+            "Policy analyst"
+        ]
+    },
+    {
+        "value": "Political scientist",
+        "synonyms": [
+            "Political scientist"
+        ]
+    },
+    {
+        "value": "Polymer factory worker",
+        "synonyms": [
+            "Polymer factory worker"
+        ]
+    },
+    {
+        "value": "Postal delivery officer",
+        "synonyms": [
+            "Postal delivery officer"
+        ]
+    },
+    {
+        "value": "Powder coater ",
+        "synonyms": [
+            "Powder coater "
+        ]
+    },
+    {
+        "value": "Power generation plant operator",
+        "synonyms": [
+            "Power generation plant operator"
+        ]
+    },
+    {
+        "value": "Precision instrument maker and repairer",
+        "synonyms": [
+            "Precision instrument maker and repairer"
+        ]
+    },
+    {
+        "value": "Primary school teacher",
+        "synonyms": [
+            "Primary school teacher"
+        ]
+    },
+    {
+        "value": "Printing machinist",
+        "synonyms": [
+            "Printing machinist"
+        ]
+    },
+    {
+        "value": "Prison officer",
+        "synonyms": [
+            "Prison officer"
+        ]
+    },
+    {
+        "value": "Private investigator",
+        "synonyms": [
+            "Private investigator"
+        ]
+    },
+    {
+        "value": "Process engineer",
+        "synonyms": [
+            "Process engineer"
+        ]
+    },
+    {
+        "value": "Process plant operator",
+        "synonyms": [
+            "Process plant operator"
+        ]
+    },
+    {
+        "value": "Product examiner",
+        "synonyms": [
+            "Product examiner"
+        ]
+    },
+    {
+        "value": "Production manager",
+        "synonyms": [
+            "Production manager"
+        ]
+    },
+    {
+        "value": "Production or plant engineer",
+        "synonyms": [
+            "Production or plant engineer"
+        ]
+    },
+    {
+        "value": "Project builder",
+        "synonyms": [
+            "Project builder"
+        ]
+    },
+    {
+        "value": "Project or program administrator",
+        "synonyms": [
+            "Project or program administrator"
+        ]
+    },
+    {
+        "value": "Prop and scenery maker",
+        "synonyms": [
+            "Prop and scenery maker"
+        ]
+    },
+    {
+        "value": "Property developer",
+        "synonyms": [
+            "Property developer"
+        ]
+    },
+    {
+        "value": "Property manager",
+        "synonyms": [
+            "Property manager"
+        ]
+    },
+    {
+        "value": "Psychiatrist",
+        "synonyms": [
+            "Psychiatrist"
+        ]
+    },
+    {
+        "value": "Psychologist",
+        "synonyms": [
+            "Psychologist"
+        ]
+    },
+    {
+        "value": "Public relations professional",
+        "synonyms": [
+            "Public relations professional"
+        ]
+    },
+    {
+        "value": "Publisher",
+        "synonyms": [
+            "Publisher"
+        ]
+    },
+    {
+        "value": "Radiation oncologist",
+        "synonyms": [
+            "Radiation oncologist"
+        ]
+    },
+    {
+        "value": "Radio presenter",
+        "synonyms": [
+            "Radio presenter"
+        ]
+    },
+    {
+        "value": "Radio producer",
+        "synonyms": [
+            "Radio producer"
+        ]
+    },
+    {
+        "value": "Radiologist",
+        "synonyms": [
+            "Radiologist"
+        ]
+    },
+    {
+        "value": "Railway track worker",
+        "synonyms": [
+            "Railway track worker"
+        ]
+    },
+    {
+        "value": "Real estate representative",
+        "synonyms": [
+            "Real estate representative"
+        ]
+    },
+    {
+        "value": "Receptionist ",
+        "synonyms": [
+            "Receptionist "
+        ]
+    },
+    {
+        "value": "Records manager",
+        "synonyms": [
+            "Records manager"
+        ]
+    },
+    {
+        "value": "Recreation officer",
+        "synonyms": [
+            "Recreation officer"
+        ]
+    },
+    {
+        "value": "Recruitment consultant",
+        "synonyms": [
+            "Recruitment consultant"
+        ]
+    },
+    {
+        "value": "Recycling or rubbish collector",
+        "synonyms": [
+            "Recycling or rubbish collector"
+        ]
+    },
+    {
+        "value": "Registered nurse ",
+        "synonyms": [
+            "Registered nurse "
+        ]
+    },
+    {
+        "value": "Registered nurse",
+        "synonyms": [
+            "Registered nurse"
+        ]
+    },
+    {
+        "value": "Registered nurse ",
+        "synonyms": [
+            "Registered nurse "
+        ]
+    },
+    {
+        "value": "Renal medicine specialist",
+        "synonyms": [
+            "Renal medicine specialist"
+        ]
+    },
+    {
+        "value": "Resident medical officer",
+        "synonyms": [
+            "Resident medical officer"
+        ]
+    },
+    {
+        "value": "Retail buyer",
+        "synonyms": [
+            "Retail buyer"
+        ]
+    },
+    {
+        "value": "Retail manager ",
+        "synonyms": [
+            "Retail manager "
+        ]
+    },
+    {
+        "value": "Retirement village manager",
+        "synonyms": [
+            "Retirement village manager"
+        ]
+    },
+    {
+        "value": "Rheumatologist",
+        "synonyms": [
+            "Rheumatologist"
+        ]
+    },
+    {
+        "value": "Road worker",
+        "synonyms": [
+            "Road worker"
+        ]
+    },
+    {
+        "value": "Roof plumber",
+        "synonyms": [
+            "Roof plumber"
+        ]
+    },
+    {
+        "value": "Roof tiler",
+        "synonyms": [
+            "Roof tiler"
+        ]
+    },
+    {
+        "value": "Safety inspector",
+        "synonyms": [
+            "Safety inspector"
+        ]
+    },
+    {
+        "value": "Sales and marketing manager",
+        "synonyms": [
+            "Sales and marketing manager"
+        ]
+    },
+    {
+        "value": "Sales assistant ",
+        "synonyms": [
+            "Sales assistant "
+        ]
+    },
+    {
+        "value": "Sales representative",
+        "synonyms": [
+            "Sales representative"
+        ]
+    },
+    {
+        "value": "Saw maker and repairer",
+        "synonyms": [
+            "Saw maker and repairer"
+        ]
+    },
+    {
+        "value": "Sawmill or timber yard worker",
+        "synonyms": [
+            "Sawmill or timber yard worker"
+        ]
+    },
+    {
+        "value": "Scaffolder",
+        "synonyms": [
+            "Scaffolder"
+        ]
+    },
+    {
+        "value": "School principal",
+        "synonyms": [
+            "School principal"
+        ]
+    },
+    {
+        "value": "Screen printer",
+        "synonyms": [
+            "Screen printer"
+        ]
+    },
+    {
+        "value": "Seafood process worker",
+        "synonyms": [
+            "Seafood process worker"
+        ]
+    },
+    {
+        "value": "Secondary school teacher",
+        "synonyms": [
+            "Secondary school teacher"
+        ]
+    },
+    {
+        "value": "Security officer",
+        "synonyms": [
+            "Security officer"
+        ]
+    },
+    {
+        "value": "Security systems installer",
+        "synonyms": [
+            "Security systems installer"
+        ]
+    },
+    {
+        "value": "Set designer",
+        "synonyms": [
+            "Set designer"
+        ]
+    },
+    {
+        "value": "Settlement agent",
+        "synonyms": [
+            "Settlement agent"
+        ]
+    },
+    {
+        "value": "Shearer",
+        "synonyms": [
+            "Shearer"
+        ]
+    },
+    {
+        "value": "Sheep farmer",
+        "synonyms": [
+            "Sheep farmer"
+        ]
+    },
+    {
+        "value": "Sheetmetal trades worker",
+        "synonyms": [
+            "Sheetmetal trades worker"
+        ]
+    },
+    {
+        "value": "Shelf filler",
+        "synonyms": [
+            "Shelf filler"
+        ]
+    },
+    {
+        "value": "Ship's engineer",
+        "synonyms": [
+            "Ship's engineer"
+        ]
+    },
+    {
+        "value": "Ship's master",
+        "synonyms": [
+            "Ship's master"
+        ]
+    },
+    {
+        "value": "Ship's officer",
+        "synonyms": [
+            "Ship's officer"
+        ]
+    },
+    {
+        "value": "Shoe repairer",
+        "synonyms": [
+            "Shoe repairer"
+        ]
+    },
+    {
+        "value": "Shotfirer",
+        "synonyms": [
+            "Shotfirer"
+        ]
+    },
+    {
+        "value": "Signwriter",
+        "synonyms": [
+            "Signwriter"
+        ]
+    },
+    {
+        "value": "Silversmith",
+        "synonyms": [
+            "Silversmith"
+        ]
+    },
+    {
+        "value": "Social worker",
+        "synonyms": [
+            "Social worker"
+        ]
+    },
+    {
+        "value": "Soil scientist",
+        "synonyms": [
+            "Soil scientist"
+        ]
+    },
+    {
+        "value": "Soldier",
+        "synonyms": [
+            "Soldier"
+        ]
+    },
+    {
+        "value": "Solicitor",
+        "synonyms": [
+            "Solicitor"
+        ]
+    },
+    {
+        "value": "Solid plasterer",
+        "synonyms": [
+            "Solid plasterer"
+        ]
+    },
+    {
+        "value": "Sonographer",
+        "synonyms": [
+            "Sonographer"
+        ]
+    },
+    {
+        "value": "Sound technician",
+        "synonyms": [
+            "Sound technician"
+        ]
+    },
+    {
+        "value": "Special needs teacher",
+        "synonyms": [
+            "Special needs teacher"
+        ]
+    },
+    {
+        "value": "Speech pathologist ",
+        "synonyms": [
+            "Speech pathologist "
+        ]
+    },
+    {
+        "value": "Sports administrator",
+        "synonyms": [
+            "Sports administrator"
+        ]
+    },
+    {
+        "value": "Sports coach or instructor",
+        "synonyms": [
+            "Sports coach or instructor"
+        ]
+    },
+    {
+        "value": "Sports development officer",
+        "synonyms": [
+            "Sports development officer"
+        ]
+    },
+    {
+        "value": "Sportsperson",
+        "synonyms": [
+            "Sportsperson"
+        ]
+    },
+    {
+        "value": "Statistician",
+        "synonyms": [
+            "Statistician"
+        ]
+    },
+    {
+        "value": "Steel fixer",
+        "synonyms": [
+            "Steel fixer"
+        ]
+    },
+    {
+        "value": "Stockbroking dealer",
+        "synonyms": [
+            "Stockbroking dealer"
+        ]
+    },
+    {
+        "value": "Stonemason",
+        "synonyms": [
+            "Stonemason"
+        ]
+    },
+    {
+        "value": "Storeperson",
+        "synonyms": [
+            "Storeperson"
+        ]
+    },
+    {
+        "value": "Streetsweeper operator",
+        "synonyms": [
+            "Streetsweeper operator"
+        ]
+    },
+    {
+        "value": "Structural engineer",
+        "synonyms": [
+            "Structural engineer"
+        ]
+    },
+    {
+        "value": "Stunt performer",
+        "synonyms": [
+            "Stunt performer"
+        ]
+    },
+    {
+        "value": "Supply and distribution manager",
+        "synonyms": [
+            "Supply and distribution manager"
+        ]
+    },
+    {
+        "value": "Surgeon",
+        "synonyms": [
+            "Surgeon"
+        ]
+    },
+    {
+        "value": "Surveyor",
+        "synonyms": [
+            "Surveyor"
+        ]
+    },
+    {
+        "value": "Surveyor's assistant",
+        "synonyms": [
+            "Surveyor's assistant"
+        ]
+    },
+    {
+        "value": "Systems administrator",
+        "synonyms": [
+            "Systems administrator"
+        ]
+    },
+    {
+        "value": "Systems analyst",
+        "synonyms": [
+            "Systems analyst"
+        ]
+    },
+    {
+        "value": "Talent agent",
+        "synonyms": [
+            "Talent agent"
+        ]
+    },
+    {
+        "value": "Taxi driver",
+        "synonyms": [
+            "Taxi driver"
+        ]
+    },
+    {
+        "value": "Teacher of the hearing impaired",
+        "synonyms": [
+            "Teacher of the hearing impaired"
+        ]
+    },
+    {
+        "value": "Teacher of the sight impaired",
+        "synonyms": [
+            "Teacher of the sight impaired"
+        ]
+    },
+    {
+        "value": "Teachers' aide",
+        "synonyms": [
+            "Teachers' aide"
+        ]
+    },
+    {
+        "value": "Technical cable jointer",
+        "synonyms": [
+            "Technical cable jointer"
+        ]
+    },
+    {
+        "value": "Telecommunications engineer",
+        "synonyms": [
+            "Telecommunications engineer"
+        ]
+    },
+    {
+        "value": "Textile production worker",
+        "synonyms": [
+            "Textile production worker"
+        ]
+    },
+    {
+        "value": "Textile, clothing and footwear mechanic",
+        "synonyms": [
+            "Textile, clothing and footwear mechanic"
+        ]
+    },
+    {
+        "value": "Thoracic medicine specialist",
+        "synonyms": [
+            "Thoracic medicine specialist"
+        ]
+    },
+    {
+        "value": "Ticket collector or usher",
+        "synonyms": [
+            "Ticket collector or usher"
+        ]
+    },
+    {
+        "value": "Tool pusher",
+        "synonyms": [
+            "Tool pusher"
+        ]
+    },
+    {
+        "value": "Tour guide",
+        "synonyms": [
+            "Tour guide"
+        ]
+    },
+    {
+        "value": "Tourist information officer",
+        "synonyms": [
+            "Tourist information officer"
+        ]
+    },
+    {
+        "value": "Trade union official",
+        "synonyms": [
+            "Trade union official"
+        ]
+    },
+    {
+        "value": "Train controller",
+        "synonyms": [
+            "Train controller"
+        ]
+    },
+    {
+        "value": "Train driver",
+        "synonyms": [
+            "Train driver"
+        ]
+    },
+    {
+        "value": "Training and development professional",
+        "synonyms": [
+            "Training and development professional"
+        ]
+    },
+    {
+        "value": "Transit officer",
+        "synonyms": [
+            "Transit officer"
+        ]
+    },
+    {
+        "value": "Translator",
+        "synonyms": [
+            "Translator"
+        ]
+    },
+    {
+        "value": "Transport company manager",
+        "synonyms": [
+            "Transport company manager"
+        ]
+    },
+    {
+        "value": "Transport engineer",
+        "synonyms": [
+            "Transport engineer"
+        ]
+    },
+    {
+        "value": "Travel consultant",
+        "synonyms": [
+            "Travel consultant"
+        ]
+    },
+    {
+        "value": "Tree faller",
+        "synonyms": [
+            "Tree faller"
+        ]
+    },
+    {
+        "value": "Truck driver",
+        "synonyms": [
+            "Truck driver"
+        ]
+    },
+    {
+        "value": "Turf grower",
+        "synonyms": [
+            "Turf grower"
+        ]
+    },
+    {
+        "value": "Tyre fitter",
+        "synonyms": [
+            "Tyre fitter"
+        ]
+    },
+    {
+        "value": "University lecturer",
+        "synonyms": [
+            "University lecturer"
+        ]
+    },
+    {
+        "value": "Upholsterer",
+        "synonyms": [
+            "Upholsterer"
+        ]
+    },
+    {
+        "value": "Urban and regional planner",
+        "synonyms": [
+            "Urban and regional planner"
+        ]
+    },
+    {
+        "value": "Urologist",
+        "synonyms": [
+            "Urologist"
+        ]
+    },
+    {
+        "value": "Valuer",
+        "synonyms": [
+            "Valuer"
+        ]
+    },
+    {
+        "value": "Vascular surgeon",
+        "synonyms": [
+            "Vascular surgeon"
+        ]
+    },
+    {
+        "value": "Vehicle body builder",
+        "synonyms": [
+            "Vehicle body builder"
+        ]
+    },
+    {
+        "value": "Veterinarian",
+        "synonyms": [
+            "Veterinarian"
+        ]
+    },
+    {
+        "value": "Veterinary nurse",
+        "synonyms": [
+            "Veterinary nurse"
+        ]
+    },
+    {
+        "value": "Video editor",
+        "synonyms": [
+            "Video editor"
+        ]
+    },
+    {
+        "value": "Vineyard worker",
+        "synonyms": [
+            "Vineyard worker"
+        ]
+    },
+    {
+        "value": "Visual arts and crafts professional",
+        "synonyms": [
+            "Visual arts and crafts professional"
+        ]
+    },
+    {
+        "value": "Visual merchandiser",
+        "synonyms": [
+            "Visual merchandiser"
+        ]
+    },
+    {
+        "value": "Vocational teacher",
+        "synonyms": [
+            "Vocational teacher"
+        ]
+    },
+    {
+        "value": "Waiter",
+        "synonyms": [
+            "Waiter"
+        ]
+    },
+    {
+        "value": "Wall and ceiling fixer",
+        "synonyms": [
+            "Wall and ceiling fixer"
+        ]
+    },
+    {
+        "value": "Wall and floor tiler",
+        "synonyms": [
+            "Wall and floor tiler"
+        ]
+    },
+    {
+        "value": "Warehouse administrator",
+        "synonyms": [
+            "Warehouse administrator"
+        ]
+    },
+    {
+        "value": "Waste water or water plant operator",
+        "synonyms": [
+            "Waste water or water plant operator"
+        ]
+    },
+    {
+        "value": "Watch and clock maker and repairer",
+        "synonyms": [
+            "Watch and clock maker and repairer"
+        ]
+    },
+    {
+        "value": "Water inspector",
+        "synonyms": [
+            "Water inspector"
+        ]
+    },
+    {
+        "value": "Waterside worker",
+        "synonyms": [
+            "Waterside worker"
+        ]
+    },
+    {
+        "value": "Web designer",
+        "synonyms": [
+            "Web designer"
+        ]
+    },
+    {
+        "value": "Weight loss consultant",
+        "synonyms": [
+            "Weight loss consultant"
+        ]
+    },
+    {
+        "value": "Welder",
+        "synonyms": [
+            "Welder"
+        ]
+    },
+    {
+        "value": "Welfare centre manager",
+        "synonyms": [
+            "Welfare centre manager"
+        ]
+    },
+    {
+        "value": "Welfare worker",
+        "synonyms": [
+            "Welfare worker"
+        ]
+    },
+    {
+        "value": "Wine maker",
+        "synonyms": [
+            "Wine maker"
+        ]
+    },
+    {
+        "value": "Wood machinist",
+        "synonyms": [
+            "Wood machinist"
+        ]
+    },
+    {
+        "value": "Wood turner",
+        "synonyms": [
+            "Wood turner"
+        ]
+    },
+    {
+        "value": "Wool classer",
+        "synonyms": [
+            "Wool classer"
+        ]
+    },
+    {
+        "value": "Youth worker",
+        "synonyms": [
+            "Youth worker"
+        ]
+    },
+    {
+        "value": "Zoologist",
+        "synonyms": [
+            "Zoologist"
+        ]
+    }
+]
