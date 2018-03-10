@@ -1,8 +1,8 @@
 
 testing bot 
-#How to Provide Replies about Shipping Costs via Api.ai Webhook
+#How to process inputs obtained via Api.ai Webhook
 
-This example shows how you can use Api.ai webhook to provide different shipping costs depending on the world region.
+This is a psychochatbot which handels the responses from users to perform a analysis and provide career options
 
 <a href="https://heroku.com/deploy" target="_blank"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 
