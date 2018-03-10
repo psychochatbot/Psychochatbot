@@ -1,6 +1,6 @@
 {
   "name": "API.AI PsychoChatbot Webhook",
   "description": "PsychoChatbot for career guidance and psychological analysis of students",
-  "repository": "https://github.com/psychochatbot/Psychochatbot/edit/master",
+  "repository": "https://github.com/psychochatbot/Psychochatbot",
   "keywords": ["api.ai", "natural language"]
 }
