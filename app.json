@@ -1,7 +1,6 @@
 {
-  "name": "API.AI Shipping Costs Webhook",
-  "description": "API.AI Shipping Costs Webhook Sapmple",
-  "repository": "https://github.com/svet4/shipping-costs-sample",
-  "logo": "http://xvir.github.io/img/apiai.png",
+  "name": "API.AI PsychoChatbot Webhook",
+  "description": "PsychoChatbot for career guidance and psychological analysis of students",
+  "repository": "https://github.com/psychochatbot/Psychochatbot/edit/master",
   "keywords": ["api.ai", "natural language"]
 }
