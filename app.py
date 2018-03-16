@@ -28,8 +28,8 @@ def webhook():
     return r
 
 def makeWebhookResult(req):
-    father_occupation=""
-    mother_occupation=""
+   global father_occupation=""
+   global mother_occupation=""
     if req.get("result").get("action") == "how_are_you":
       #  return {}
         result = req.get("result")
