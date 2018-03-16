@@ -28,6 +28,8 @@ def webhook():
     return r
 
 def makeWebhookResult(req):
+    father_occupation=""
+    mother_occupation=""
     if req.get("result").get("action") == "how_are_you":
       #  return {}
         result = req.get("result")
@@ -88,8 +90,11 @@ def makeWebhookResult(req):
         result = req.get("result")
         parameters = result.get("parameters")
         father_occupation=parameters.get("f_o")
+        if(mother_occupation==""):
+            speech="your father is "+father_occupation+" what does your mother do?"
         #speech="Okay, let's talk about your family"
-        speech="your father is "+father_occupation
+        else:    
+            speech="your father is "+father_occupation
         print(speech)
         return {
         "speech": speech,
@@ -107,8 +112,11 @@ def makeWebhookResult(req):
         result = req.get("result")
         parameters = result.get("parameters")
         mother_occupation=parameters.get("m_o")
+        if(father_occupation==""):
+            speech="your mother is "+mother_occupation+" what does your father do?"
         #speech="Okay, let's talk about your family"
-        speech="your mother is "+mother_occupation
+        else:    
+            speech="your mother is "+mother_occupation
         print(speech)
         return {
         "speech": speech,
