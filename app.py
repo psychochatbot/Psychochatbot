@@ -28,11 +28,7 @@ def webhook():
     return r
 
 def makeWebhookResult(req):
-    global father_occupation
-    global mother_occupation
-   
-    father_occupation="a"
-    mother_occupation=""
+
     if req.get("result").get("action") == "how_are_you":
       #  return {}
         result = req.get("result")
@@ -217,5 +213,10 @@ if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
 
     print("Starting app on port %d" % port)
+    global father_occupation
+    global mother_occupation
+   
+    father_occupation=""
+    mother_occupation=""
 
     app.run(debug=True, port=port, host='0.0.0.0')
