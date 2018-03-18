@@ -119,7 +119,7 @@ def makeWebhookResult(req):
             speech="your mother is "+mother_occupation+" what does your father do?"
         #speech="Okay, let's talk about your family"
         else:    
-            speech="your mother is "+mother_occupation
+            speech="your mother is "+mother_occupation+"and your father is"+father_occupation
         print(speech)
         return {
         "speech": speech,
