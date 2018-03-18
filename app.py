@@ -37,7 +37,7 @@ def webhook():
     return r
 
 def makeWebhookResult(req):
-    g.father_occupation=""
+    #g.father_occupation=""
     g.mother_occupation=""
     if req.get("result").get("action") == "how_are_you":
       #  return {}
