@@ -8,6 +8,11 @@ from flask import Flask
 from flask import request
 from flask import make_response
 
+global father_occupation
+global mother_occupation
+   
+father_occupation=""
+mother_occupation=""
 # Flask app should start in global layout
 app = Flask(__name__)
 
@@ -211,10 +216,6 @@ def makeWebhookResult(req):
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
-    global father_occupation
-    global mother_occupation
-   
-    father_occupation=""
-    mother_occupation=""
+
     print("Starting app on port %d" % port)
     app.run(debug=True, port=port, host='0.0.0.0')
