@@ -28,11 +28,11 @@ def webhook():
     return r
 
 def makeWebhookResult(req):
-   global father_occupation
-   global mother_occupation
+    global father_occupation
+    global mother_occupation
    
-   father_occupation=""
-   mother_occupation=""
+    father_occupation=""
+    mother_occupation=""
     if req.get("result").get("action") == "how_are_you":
       #  return {}
         result = req.get("result")
