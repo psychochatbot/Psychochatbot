@@ -13,13 +13,12 @@ from flask import g
 # Flask app should start in global layout
 app = Flask(__name__)
 
-@app.before_first_request
-def initiali():
-   global father_occupation
-   global mother_occupation
+#@app.before_first_request
+#def initiali():
+ #  global father_occupation
+  # global mother_occupation
    
-   g.father_occupation=""
-   g.mother_occupation=""
+
 
 
 @app.route('/webhook', methods=['POST'])
@@ -38,7 +37,8 @@ def webhook():
     return r
 
 def makeWebhookResult(req):
-
+    g.father_occupation=""
+    g.mother_occupation=""
     if req.get("result").get("action") == "how_are_you":
       #  return {}
         result = req.get("result")
