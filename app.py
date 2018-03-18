@@ -8,13 +8,17 @@ from flask import Flask
 from flask import request
 from flask import make_response
 
-global father_occupation
-global mother_occupation
-   
-father_occupation=""
-mother_occupation=""
+
 # Flask app should start in global layout
 app = Flask(__name__)
+
+@app.before_first_request
+def initiali():
+   global father_occupation
+   global mother_occupation
+   
+   father_occupation=""
+   mother_occupation=""
 
 
 @app.route('/webhook', methods=['POST'])
