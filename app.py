@@ -93,7 +93,7 @@ def makeWebhookResult(req):
         result = req.get("result")
         parameters = result.get("parameters")
         father_occupation=parameters.get("f_o")
-        if(mother_occupation==""):
+        if(mother_occupation==None):
             speech="your father is "+father_occupation+" what does your mother do?"
         #speech="Okay, let's talk about your family"
         else:    
@@ -115,7 +115,7 @@ def makeWebhookResult(req):
         result = req.get("result")
         parameters = result.get("parameters")
         mother_occupation=parameters.get("m_o")
-        if(father_occupation==""):
+        if(father_occupation==None):
             speech="your mother is "+mother_occupation+" what does your father do?"
         #speech="Okay, let's talk about your family"
         else:    
