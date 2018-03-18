@@ -99,7 +99,7 @@ def makeWebhookResult(req):
         result = req.get("result")
         parameters = result.get("parameters")
         father_occupation=parameters.get("f_o")
-        if(mother_occupation==""):
+        if(g.mother_occupation==""):
             speech="your father is "+father_occupation+" what does your mother do?"
         #speech="Okay, let's talk about your family"
         else:    
