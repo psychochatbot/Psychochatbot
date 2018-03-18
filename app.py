@@ -32,7 +32,7 @@ def makeWebhookResult(req):
     global mother_occupation
    
     father_occupation="a"
-    mother_occupation="b"
+    mother_occupation=""
     if req.get("result").get("action") == "how_are_you":
       #  return {}
         result = req.get("result")
