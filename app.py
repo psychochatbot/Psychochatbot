@@ -88,7 +88,7 @@ def makeWebhookResult(req):
     if req.get("result").get("action") == "action_father_occupation":
         result = req.get("result")
         parameters = result.get("parameters")
-        father_occupation=father_occupation+parameters.get("f_o")
+        father_occupation=parameters.get("f_o")
         if(mother_occupation==""):
             speech="your father is "+father_occupation+" what does your mother do?"
         #speech="Okay, let's talk about your family"
@@ -110,7 +110,7 @@ def makeWebhookResult(req):
     if req.get("result").get("action") == "action_mother_occupation":
         result = req.get("result")
         parameters = result.get("parameters")
-        mother_occupation=mother_occupation+parameters.get("m_o")
+        mother_occupation=parameters.get("m_o")
         if(father_occupation==""):
             speech="your mother is "+mother_occupation+" what does your father do?"
         #speech="Okay, let's talk about your family"
@@ -211,12 +211,10 @@ def makeWebhookResult(req):
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
-
-    print("Starting app on port %d" % port)
     global father_occupation
     global mother_occupation
    
     father_occupation=""
     mother_occupation=""
-
+    print("Starting app on port %d" % port)
     app.run(debug=True, port=port, host='0.0.0.0')
