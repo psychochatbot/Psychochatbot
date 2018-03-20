@@ -123,7 +123,8 @@ def makeWebhookResult(req):
         result = req.get("result")
         parameters = result.get("parameters")
         mother_occupation=parameters.get("m_o")
-        if(session['father_occupation']==""):
+        #if(session['father_occupation']==""):
+        if('father_occupation' not in session):
             speech="your mother is "+mother_occupation+" what does your father do?"
         #speech="Okay, let's talk about your family"
         else:    
