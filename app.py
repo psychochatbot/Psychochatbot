@@ -12,6 +12,7 @@ from flask import session
 
 # Flask app should start in global layout
 app = Flask(__name__)
+app.config['SECRET_KEY'] = 'oh_so_secret'
 
 #@app.before_first_request
 #def initiali():
@@ -222,6 +223,6 @@ def makeWebhookResult(req):
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
-    app.secret_key="Sgsits2018"
+  #  app.secret_key="Sgsits2018"
     print("Starting app on port %d" % port)
     app.run(debug=True, port=port, host='0.0.0.0')
