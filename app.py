@@ -125,10 +125,10 @@ def makeWebhookResult(req):
         mother_occupation=parameters.get("m_o")
         #if(session['father_occupation']==""):
         if('father_occupation' not in session):
-            speech="your mother is "+mother_occupation+" what does your father do?"+session['father_occupation']
+            speech="your mother is "+mother_occupation+" what does your father do?"
         #speech="Okay, let's talk about your family"
         else:    
-            speech="your mother is "+mother_occupation+"and your father is"+session['father_occupation']
+            speech="your mother is "+mother_occupation+" and your father is "+session['father_occupation']
         print(speech)
         return {
         "speech": speech,
