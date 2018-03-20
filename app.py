@@ -7,7 +7,7 @@ import os
 from flask import Flask
 from flask import request
 from flask import make_response
-from flask import g
+from flask import session
 
 
 # Flask app should start in global layout
@@ -37,8 +37,8 @@ def webhook():
     return r
 
 def makeWebhookResult(req):
-    father_occupation=""
-    mother_occupation=""
+    #father_occupation=""
+    #mother_occupation=""
     if req.get("result").get("action") == "how_are_you":
       #  return {}
         result = req.get("result")
@@ -99,6 +99,7 @@ def makeWebhookResult(req):
         result = req.get("result")
         parameters = result.get("parameters")
         father_occupation=parameters.get("f_o")
+        session['father_occupation']=father_occupation
         if(mother_occupation==""):
             speech="your father is "+father_occupation+" what does your mother do?"
         #speech="Okay, let's talk about your family"
@@ -121,7 +122,7 @@ def makeWebhookResult(req):
         result = req.get("result")
         parameters = result.get("parameters")
         mother_occupation=parameters.get("m_o")
-        if(father_occupation==""):
+        if(session['father_occupation']==""):
             speech="your mother is "+mother_occupation+" what does your father do?"
         #speech="Okay, let's talk about your family"
         else:    
@@ -221,6 +222,6 @@ def makeWebhookResult(req):
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
-
+    app.secret_key="Sgsits2018"
     print("Starting app on port %d" % port)
     app.run(debug=True, port=port, host='0.0.0.0')
