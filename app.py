@@ -118,6 +118,14 @@ def makeWebhookResult(req):
         #speech="Okay, let's talk about your family"
         else:    
             speech="your father is "+father_occupation+"and maa is "+session['mother_occupation']
+            return {
+            "speech": speech,
+            "displayText": speech,
+            "source": "apiai-psychochatbot",
+            "followupEvent": {
+            "name": "event_ask_be_like"
+            }
+     }
         print(speech)
         return {
         "speech": speech,
@@ -142,6 +150,14 @@ def makeWebhookResult(req):
         #speech="Okay, let's talk about your family"
         else:    
             speech="your mother is "+mother_occupation+" and your father is "+session['father_occupation']
+            return {
+            "speech": speech,
+            "displayText": speech,
+            "source": "apiai-psychochatbot",
+            "followupEvent": {
+            "name": "event_ask_be_like"
+            }
+     }
         print(speech)
         return {
         "speech": speech,
