@@ -61,6 +61,13 @@ def makeWebhookResult(req):
     }
     
     
+    if req.get("result").get("action") == "action_welcome":
+        result = req.get("result")
+        for key in session.keys():
+            session.pop(key)
+        return {}
+    
+    
     if req.get("result").get("action") == "action_welcome_good_day":
         result = req.get("result")
        # parameters = result.get("parameters")
