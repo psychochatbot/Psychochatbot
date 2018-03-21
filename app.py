@@ -61,8 +61,10 @@ def makeWebhookResult(req):
     }
     
     
-    #if req.get("result").get("action") == "action_welcome":
-     #   result = req.get("result")
+    if req.get("result").get("action") == "action_welcome":
+        result = req.get("result")
+        session.clear()
+        return {}
       #  return {
        #  "speech": "apka swagat h",
         #"displayText": "apka swagat h"
