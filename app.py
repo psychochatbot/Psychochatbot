@@ -63,8 +63,6 @@ def makeWebhookResult(req):
     
     if req.get("result").get("action") == "action_welcome":
         result = req.get("result")
-        for key in session.keys():
-            session.pop(key)
         return {
          "speech": "apka swagat h",
         "displayText": "apka swagat h"
@@ -74,8 +72,9 @@ def makeWebhookResult(req):
     if req.get("result").get("action") == "action_welcome_good_day":
         result = req.get("result")
        # parameters = result.get("parameters")
-        for key in session.keys():
-            session.pop(key)
+        #for key in session.keys():
+         #   session.pop(key)
+        session.clear()
         speech="Okay, let's talk about your family"
         print(speech)
         return {
