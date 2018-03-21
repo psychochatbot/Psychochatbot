@@ -65,7 +65,10 @@ def makeWebhookResult(req):
         result = req.get("result")
         for key in session.keys():
             session.pop(key)
-        return {}
+        return {
+         "speech": "apka swagat h",
+        "displayText": "apka swagat h"
+        }
     
     
     if req.get("result").get("action") == "action_welcome_good_day":
@@ -112,7 +115,7 @@ def makeWebhookResult(req):
             speech="your father is "+session['father_occupation']+" what does your mother do?"
         #speech="Okay, let's talk about your family"
         else:    
-            speech="your father is "+father_occupation
+            speech="your father is "+father_occupation+"and maa is "+session['mother_occupation']
         print(speech)
         return {
         "speech": speech,
