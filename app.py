@@ -61,12 +61,12 @@ def makeWebhookResult(req):
     }
     
     
-    if req.get("result").get("action") == "action_welcome":
-        result = req.get("result")
-        return {
-         "speech": "apka swagat h",
-        "displayText": "apka swagat h"
-        }
+    #if req.get("result").get("action") == "action_welcome":
+     #   result = req.get("result")
+      #  return {
+       #  "speech": "apka swagat h",
+        #"displayText": "apka swagat h"
+        #}
     
     
     if req.get("result").get("action") == "action_welcome_good_day":
