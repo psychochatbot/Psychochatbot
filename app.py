@@ -158,6 +158,18 @@ def makeWebhookResult(req):
             "name": "event_ask_be_like"
             }
      }
+          
+          
+    if req.get("result").get("action") == "action_ask_be_like_father":
+        result = req.get("result")
+        session['ask_be_like']="father"
+        return {
+        "source": "apiai-psychochatbot",
+        "followupEvent": {
+           "name": "event_ask_about_family"
+        }
+    }
+          
         print(speech)
         return {
         "speech": speech,
