@@ -115,6 +115,11 @@ def makeWebhookResult(req):
         session['father_occupation']=father_occupation
         if('mother_occupation' not in session):
             speech="your father is "+session['father_occupation']+" what does your mother do?"
+            return {
+            "speech": speech,
+            "displayText": speech,
+            "source": "apiai-psychochatbot"
+     }
         #speech="Okay, let's talk about your family"
         else:    
             speech="your father is "+father_occupation+"and maa is "+session['mother_occupation']
@@ -147,6 +152,11 @@ def makeWebhookResult(req):
         #if(session['father_occupation']==""):
         if('father_occupation' not in session):
             speech="your mother is "+mother_occupation+" what does your father do?"
+            return {
+            "speech": speech,
+            "displayText": speech,
+            "source": "apiai-psychochatbot"
+     }
         #speech="Okay, let's talk about your family"
         else:    
             speech="your mother is "+mother_occupation+" and your father is "+session['father_occupation']
