@@ -16,7 +16,7 @@ from flask import session
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'oh_so_secret'
 with open('filename.pkl', 'rb') as f:
-    model = pickle.load(f)
+    model = pickle.load(f,encoding='utf-8')
 print(model.predict([[2,0,0,1]]))
 
 #@app.before_first_request
