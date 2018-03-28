@@ -17,7 +17,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'oh_so_secret'
 with open('filename.pkl', 'rb') as f:
     model = pickle.load(f,encoding='latin1')
-print(model.predict([[2,0,0,1]]))
+#print(model.predict([[2,0,0,1]]))
 
 #@app.before_first_request
 #def initiali():
@@ -78,6 +78,7 @@ def makeWebhookResult(req):
     
     if req.get("result").get("action") == "action_welcome_good_day":
         result = req.get("result")
+        print(model.predict([[2,0,0,1]]))
        # parameters = result.get("parameters")
         #for key in session.keys():
          #   session.pop(key)
