@@ -241,6 +241,14 @@ def makeWebhookResult(req):
         #   "name": "event_hobbies_interests"
         #}
     }
+    
+    
+    if req.get("result").get("action") == "action_hobbies_interests_arts_no" or "action_hobbies_interests_sports_no" or "action_hobbies_interests_misc_no" or "action_hobbies_interests_extras_no":
+        return{
+          "followupEvent": {
+          "name": "event_ask_about_family"
+        }
+        }
           
         print(speech)
         return {
