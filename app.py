@@ -196,6 +196,51 @@ def makeWebhookResult(req):
            "name": "event_hobbies_interests"
         }
     }
+    
+    
+    if req.get("result").get("action") == "action_hobbies_interests_art":
+        result = req.get("result")
+        parameters = result.get("parameters")
+        duration=parameters.get("duration")
+        certifications=parameters.get("certifications")
+        as_career=parameters.get("as_career")
+        parents_support=parameters.get("parents_support")
+        return {
+       # "speech": "arts",
+        #"displayText": "arts",
+        "source": "apiai-psychochatbot",
+       # "followupEvent": {
+        #   "name": "event_hobbies_interests"
+        #}
+    }
+    
+    if req.get("result").get("action") == "action_hobbies_interests_sports":
+        result = req.get("result")
+        parameters = result.get("parameters")
+        duration=parameters.get("duration")
+        achievements=parameters.get("achievements")
+        as_career=parameters.get("as_career")
+        parents_support=parameters.get("parents_support")
+        return {
+        "source": "apiai-psychochatbot",
+       # "followupEvent": {
+        #   "name": "event_hobbies_interests"
+        #}
+    }
+    
+    if req.get("result").get("action") == "action_hobbies_interests_misc":
+        result = req.get("result")
+        parameters = result.get("parameters")
+        duration=parameters.get("duration")
+        certification=parameters.get("certification")
+        as_career=parameters.get("as_career")
+        parents_support=parameters.get("parents_support")
+        return {
+        "source": "apiai-psychochatbot",
+       # "followupEvent": {
+        #   "name": "event_hobbies_interests"
+        #}
+    }
           
         print(speech)
         return {
