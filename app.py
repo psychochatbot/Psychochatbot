@@ -200,6 +200,11 @@ def makeWebhookResult(req):
     
     if req.get("result").get("action") == "action_hobbies_interests_art":
         result = req.get("result")
+        session['hobby']="arts"
+        session['duration']=duration
+        session['certis']= certifications
+        session['as_career']=as_career
+        session['parents_support']=parents_support
         parameters = result.get("parameters")
         duration=parameters.get("duration")
         certifications=parameters.get("certifications")
