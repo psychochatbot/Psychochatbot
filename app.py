@@ -88,7 +88,7 @@ def makeWebhookResult(req):
         session.clear()
         speech="Okay, let's talk about your family"
         print(speech)
-        open('record.txt','r') as fg
+        fg=open('record.txt','r')
         message = fg.read()
         print(message)
         
