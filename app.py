@@ -17,6 +17,8 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'oh_so_secret'
 with open('filename.pkl', 'rb') as f:
     model = pickle.load(f,encoding='latin1')
+with open('record.txt','w') as ef:
+    ef.write('ephimerel testing')
 #print(model.predict([[2,0,0,1]]))
 
 #@app.before_first_request
@@ -69,6 +71,7 @@ def makeWebhookResult(req):
     if req.get("result").get("action") == "action_welcome":
         result = req.get("result")
         session.clear()
+        ef.close()
         return {}
       #  return {
        #  "speech": "apka swagat h",
@@ -85,6 +88,10 @@ def makeWebhookResult(req):
         session.clear()
         speech="Okay, let's talk about your family"
         print(speech)
+        open('record.txt','r') as fg
+        message = fg.read()
+        print(message)
+        
         return {
         "speech": speech,
         "displayText": speech,
