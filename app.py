@@ -71,6 +71,7 @@ def makeWebhookResult(req):
     if req.get("result").get("action") == "action_welcome":
         result = req.get("result")
         session.clear()
+        ef=open('record.txt','a')
         ef.write('ephimerel testing firse')
         ef.close()
         return {}
