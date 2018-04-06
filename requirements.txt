@@ -1,7 +1,6 @@
 Flask==0.10.1
 pandas==0.17.1
 scikit-learn==0.19.1
-io
 scipy
 category_encoders
 nltk
