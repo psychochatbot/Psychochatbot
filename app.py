@@ -4,7 +4,7 @@ import urllib
 import json
 import os
 import pickle
-
+import io
 from flask import Flask
 from flask import request
 from flask import make_response
@@ -17,8 +17,18 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'oh_so_secret'
 with open('filename.pkl', 'rb') as f:
     model = pickle.load(f,encoding='latin1')
-with open('record.txt','w') as ef:
-    ef.write('ephimerel testing')
+    
+with io.open('data.json', 'w', encoding='utf8') as outfile:
+    entry = {}
+    entry['name'] = 'happy'
+try:
+    to_unicode = unicode
+except NameError:
+    to_unicode = str
+
+
+#with open('record.txt','w') as ef:
+ #   ef.write('ephimerel testing')
 #print(model.predict([[2,0,0,1]]))
 
 #@app.before_first_request
@@ -127,7 +137,13 @@ def makeWebhookResult(req):
         result = req.get("result")
         parameters = result.get("parameters")
         father_occupation=parameters.get("f_o")
-        session['father_occupation']=father_occupation
+        entry['father_occupation']=father_occupation
+        str_=json.dumps(unicode(entry), outfile,ensure_ascii=False)
+        outfile.write(to_unicode(str_))
+        with open('data.json', 'r') as data_file:
+            data_loaded =json.loads(data_file.read())
+            print(entry['father_occupation'])
+            data_file.close()
         if('mother_occupation' not in session):
             speech="your father is "+session['father_occupation']+" what does your mother do?"
             return {
