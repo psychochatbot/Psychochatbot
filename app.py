@@ -138,8 +138,8 @@ def makeWebhookResult(req):
         parameters = result.get("parameters")
         father_occupation=parameters.get("f_o")
         entry['father_occupation']=father_occupation
-        str_=json.dumps(entry, outfile,ensure_ascii=False)
-        outfile.write(to_unicode(str_))
+        str_=json.dumps(entry,ensure_ascii=False)
+        outfile.write((str_))
         with open('data.json', 'r') as data_file:
             data_loaded =json.loads(data_file.read())
             print(entry['father_occupation'])
