@@ -144,10 +144,10 @@ def makeWebhookResult(req):
             outfile.write((str_))
         with open('data.json', 'r') as data_file:
             data_loaded =json.loads(data_file.read())
-            print(entry['father_occupation'])
-            data_file.close()
-        if('mother_occupation' not in session):
-            speech="your father is "+session['father_occupation']+" what does your mother do?"
+            print(data_loaded['father_occupation'])
+           # data_file.close()
+        if('mother_occupation' not in data_loaded):
+            speech="your father is "+entry['father_occupation']+" what does your mother do?"
             return {
             "speech": speech,
             "displayText": speech,
