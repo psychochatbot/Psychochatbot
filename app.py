@@ -170,10 +170,7 @@ def makeWebhookResult(req):
         "displayText": speech,
         #"data": {},
         #"contextOut": [],
-        "source": "apiai-psychochatbot",
-      #  "followupEvent": {
-       #    "name": "event_ask_about_family"
-        #}
+        "source": "apiai-psychochatbot"
     }
     
      #THIS IS NEW VERSION
