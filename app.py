@@ -54,6 +54,12 @@ def webhook():
     r.headers['Content-Type'] = 'application/json'
     return r
 
+def dump_value(key,value):
+    with io.open('data.json', 'a', encoding='utf8') as outfile:
+        entry[str(key)]=value
+        str_=json.dumps(entry,ensure_ascii=False)
+        outfile.write((str_))
+
 def makeWebhookResult(req):
     #father_occupation=""
    # mother_occupation=""
