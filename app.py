@@ -242,8 +242,8 @@ def makeWebhookResult(req):
           
     if req.get("result").get("action") == "action_ask_be_like_father":
         result = req.get("result")
-        dump_value('ask_be_like_father','y')
-        dump_value('ask_be_like_mother','n')
+        dump_value('ask_be_like_father','yes')
+        dump_value('ask_be_like_mother','no')
         #data_loaded['ask_be_like']="father"
         return {
         "source": "apiai-psychochatbot",
@@ -255,8 +255,8 @@ def makeWebhookResult(req):
        
     if req.get("result").get("action") == "action_ask_be_like_mother":
         result = req.get("result")
-        dump_value('ask_be_like_father','n')
-        dump_value('ask_be_like_mother','y')
+        dump_value('ask_be_like_father','no')
+        dump_value('ask_be_like_mother','yes')
         #data_loaded['ask_be_like']="mother"
         return {
         "source": "apiai-psychochatbot",
