@@ -166,7 +166,7 @@ def makeWebhookResult(req):
      }
         #speech="Okay, let's talk about your family"
         else:    
-            speech="your father is "+father_occupation+"and maa is "+data_loaded['mother_occupation']
+            speech="your father is "+data_loaded['father_occupation']+"and maa is "+data_loaded['mother_occupation']
             return {
             "speech": speech,
             "displayText": speech,
@@ -200,7 +200,7 @@ def makeWebhookResult(req):
      }
         #speech="Okay, let's talk about your family"
         else:    
-            speech="your mother is "+mother_occupation+" and your father is "+data_loaded['father_occupation']
+            speech="your mother is "+data_loaded['mother_occupation']+" and your father is "+data_loaded['father_occupation']
             return {
             "speech": speech,
             "displayText": speech,
@@ -213,7 +213,9 @@ def makeWebhookResult(req):
           
     if req.get("result").get("action") == "action_ask_be_like_father":
         result = req.get("result")
-        data_loaded['ask_be_like']="father"
+        dump_value('ask_be_like_father','y')
+        dump_value('ask_be_like_mother','n')
+        #data_loaded['ask_be_like']="father"
         return {
         "source": "apiai-psychochatbot",
         "followupEvent": {
@@ -224,7 +226,9 @@ def makeWebhookResult(req):
        
     if req.get("result").get("action") == "action_ask_be_like_mother":
         result = req.get("result")
-        data_loaded['ask_be_like']="mother"
+        dump_value('ask_be_like_father','n')
+        dump_value('ask_be_like_mother','y')
+        #data_loaded['ask_be_like']="mother"
         return {
         "source": "apiai-psychochatbot",
         "followupEvent": {
@@ -236,15 +240,23 @@ def makeWebhookResult(req):
     if req.get("result").get("action") == "action_hobbies_interests_art":
         result = req.get("result")
         data_loaded['hobby']="arts"
-        data_loaded['duration']=duration
-        data_loaded['certis']= certifications
-        data_loaded['as_career']=as_career
-        data_loaded['parents_support']=parents_support
         parameters = result.get("parameters")
         duration=parameters.get("duration")
+        print(duration)
         certifications=parameters.get("certifications")
         as_career=parameters.get("as_career")
         parents_support=parameters.get("parents_support")
+        dump_value('hobby','arts')
+        dump_value('duration','n')
+        dump_value('certifications',certifications)
+        dump_value('as_career',as_career)
+        dump_value('parents_support',parents_support)
+        
+     #   data_loaded['duration']=duration
+      #  data_loaded['certis']= certifications
+       # data_loaded['as_career']=as_career
+        #data_loaded['parents_support']=parents_support
+   
         return {
        # "speech": "arts",
         #"displayText": "arts",
@@ -261,6 +273,11 @@ def makeWebhookResult(req):
         achievements=parameters.get("achievements")
         as_career=parameters.get("as_career")
         parents_support=parameters.get("parents_support")
+        dump_value('hobby','sports')
+        dump_value('duration','n')
+        dump_value('certifications',achievements)
+        dump_value('as_career',as_career)
+        dump_value('parents_support',parents_support)
         return {
         "source": "apiai-psychochatbot",
        # "followupEvent": {
@@ -283,7 +300,7 @@ def makeWebhookResult(req):
     }
     
     
-    #if req.get("result").get("action") == "action_hobbies_interests_arts_no" or "action_hobbies_interests_sports_no" or "action_hobbies_interests_misc_no" or "action_hobbies_interests_extras_no":
+    #if req.get("result").get("action") == "action_hobbies_interests_arts_no" or #"action_hobbies_interests_sports_no" or "action_hobbies_interests_misc_no" or "action_hobbies_interests_extras_no":
      #   return{
       #    "followupEvent": {
        #   "name": "event_ask_about_family"
