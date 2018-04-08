@@ -218,6 +218,9 @@ def makeWebhookResult(req):
         mother_occupation=parameters.get("m_o")
         dump_value('mother_occupation',mother_occupation)
         #if(session['father_occupation']==""):
+        with open('data.json', 'r') as data_file:
+            data_loaded =json.loads(data_file.read())
+#            print(data_loaded['father_occupation'])
         if('father_occupation' not in data_loaded):
             speech="your mother is "+data_loaded['mother_occupation']+" what does your father do?"
             return {
