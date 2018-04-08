@@ -5,11 +5,12 @@ import json
 import os
 import pickle
 import io
+import pandas as pd
 from flask import Flask
 from flask import request
 from flask import make_response
 from flask import session
-
+from sklearn.preprocessing import LabelEncoder
 
 
 # Flask app should start in global layout
@@ -148,6 +149,11 @@ def makeWebhookResult(req):
         parameters = result.get("parameters")
         father_occupation=parameters.get("f_o")
         dump_value('father_occupation',father_occupation)
+        psycho_algo = pd.read_csv("psycho_data.csv")
+        psycho_algo.head()
+        number = LabelEncoder()
+        psycho_algo['like_mother'] = number.fit_transform(psycho_algo['like_mother'])
+        print(psycho_algo['like_mother'])
         #with io.open('data.json', 'a', encoding='utf8') as outfile:
          #   entry = {}
          #   entry['father_occupation']=father_occupation
