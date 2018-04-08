@@ -272,7 +272,9 @@ def makeWebhookResult(req):
         data_loaded['hobby']="arts"
         parameters = result.get("parameters")
         duration=parameters.get("duration")
+        print('----------------------------------------------------------')
         print(duration)
+        print('----------------------------------------------')
         certifications=parameters.get("certifications")
         as_career=parameters.get("as_career")
         parents_support=parameters.get("parents_support")
