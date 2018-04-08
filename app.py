@@ -335,7 +335,6 @@ def makeWebhookResult(req):
         }
     
     if req.get("result").get("action") == "action_hobbies_interests_sports_no":
-    
         return{
           "followupEvent": {
           "name": "event_ask_about_family"
