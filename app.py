@@ -91,9 +91,11 @@ def makeWebhookResult(req):
     if req.get("result").get("action") == "action_welcome":
         result = req.get("result")
         session.clear()
-        ef=open('record.txt','a')
-        ef.write('ephimerel testing firse')
-        ef.close()
+        with io.open('data.json', 'w', encoding='utf8') as outfile:
+            entry = {}
+            entry['name'] = 'happy'
+            str_=json.dumps(entry,ensure_ascii=False)
+            outfile.write((str_))
         return {}
       #  return {
        #  "speech": "apka swagat h",
@@ -147,12 +149,12 @@ def makeWebhookResult(req):
         result = req.get("result")
         parameters = result.get("parameters")
         father_occupation=parameters.get("f_o")
-        #dump_value('father_occupation',father_occupation)
-        with io.open('data.json', 'a', encoding='utf8') as outfile:
+        dump_value('father_occupation',father_occupation)
+        #with io.open('data.json', 'a', encoding='utf8') as outfile:
          #   entry = {}
-            entry['father_occupation']=father_occupation
-            str_=json.dumps(entry,ensure_ascii=False)
-            outfile.write((str_))
+         #   entry['father_occupation']=father_occupation
+          #  str_=json.dumps(entry,ensure_ascii=False)
+           # outfile.write((str_))
         with open('data.json', 'r') as data_file:
             data_loaded =json.loads(data_file.read())
             print(data_loaded['father_occupation'])
