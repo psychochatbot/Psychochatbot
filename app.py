@@ -108,7 +108,6 @@ def makeWebhookResult(req):
     
     if req.get("result").get("action") == "action_welcome_good_day":
         result = req.get("result")
-        print(model.predict([[2,0,0,1]]))
        # parameters = result.get("parameters")
         #for key in session.keys():
          #   session.pop(key)
