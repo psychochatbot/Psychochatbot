@@ -112,10 +112,6 @@ def makeWebhookResult(req):
         session.clear()
         speech="Okay, let's talk about your family"
         print(speech)
-        fg=open('record.txt','r')
-        message = fg.read()
-        print(message)
-        
         return {
         "speech": speech,
         "displayText": speech,
