@@ -154,7 +154,9 @@ def makeWebhookResult(req):
         number = LabelEncoder()
         psycho_algo['like_mother'] = number.fit_transform(psycho_algo['like_mother'])
         #print(psycho_algo['like_mother'])
-        print(number.transform(like_mother['y']))
+        print("this is  ")
+        print(number.transform(['y']))
+       # print(number.transform(like_mother['y']))
         #with io.open('data.json', 'a', encoding='utf8') as outfile:
          #   entry = {}
          #   entry['father_occupation']=father_occupation
