@@ -360,7 +360,7 @@ def makeWebhookResult(req):
         } 
     
     if req.get("result").get("action") == "action_result":
-        psycho_algo = pd.read_csv("psycho_data.csv")
+        psycho_algo = pd.read_csv("psycho_data_final.csv")
         psycho_algo.head()
         number1 = LabelEncoder()
         psycho_algo['like_mother'] = number1.fit_transform(psycho_algo['like_mother'])
