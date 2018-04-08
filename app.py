@@ -246,7 +246,7 @@ def makeWebhookResult(req):
         return {
         "source": "apiai-psychochatbot",
         "followupEvent": {
-           "name": "event_hobbies_interests"
+           "name": "event_result"
         }
     }
        
@@ -259,7 +259,7 @@ def makeWebhookResult(req):
         return {
         "source": "apiai-psychochatbot",
         "followupEvent": {
-           "name": "event_hobbies_interests"
+           "name": "event_result"
         }
     }
     
