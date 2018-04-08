@@ -21,6 +21,8 @@ with open('filename.pkl', 'rb') as f:
 with io.open('data.json', 'w', encoding='utf8') as outfile:
     entry = {}
     entry['name'] = 'happy'
+    str_=json.dumps(entry,ensure_ascii=False)
+    outfile.write((str_))
 try:
     to_unicode = unicode
 except NameError:
@@ -143,11 +145,12 @@ def makeWebhookResult(req):
         result = req.get("result")
         parameters = result.get("parameters")
         father_occupation=parameters.get("f_o")
-        with io.open('data.json', 'a', encoding='utf8') as outfile:
-            entry = {}
-            entry['father_occupation']=father_occupation
-            str_=json.dumps(entry,ensure_ascii=False)
-            outfile.write((str_))
+        dump_value('father_occupation',father_occupation)
+        #with io.open('data.json', 'a', encoding='utf8') as outfile:
+         #   entry = {}
+         #   entry['father_occupation']=father_occupation
+          #  str_=json.dumps(entry,ensure_ascii=False)
+           # outfile.write((str_))
         with open('data.json', 'r') as data_file:
             data_loaded =json.loads(data_file.read())
             print(data_loaded['father_occupation'])
