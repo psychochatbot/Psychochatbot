@@ -272,9 +272,6 @@ def makeWebhookResult(req):
         data_loaded['hobby']="arts"
         parameters = result.get("parameters")
         duration=parameters.get("duration")
-        print('----------------------------------------------------------')
-        print(duration)
-        print('----------------------------------------------')
         certifications=parameters.get("certifications")
         as_career=parameters.get("as_career")
         parents_support=parameters.get("parents_support")
@@ -292,7 +289,7 @@ def makeWebhookResult(req):
         return {
        # "speech": "arts",
         #"displayText": "arts",
-        "source": "apiai-psychochatbot",
+        "source": "apiai-psychochatbot"
        # "followupEvent": {
         #   "name": "event_hobbies_interests"
         #}
@@ -301,10 +298,8 @@ def makeWebhookResult(req):
     if req.get("result").get("action") == "action_hobbies_interests_sports":
         result = req.get("result")
         parameters = result.get("parameters")
-        duration=parameters.get("duration")
-        print('----------------------------------------------------------')
+        duration=parameters.get("duration")   
         print(duration)
-        print('----------------------------------------------------------')
         achievements=parameters.get("achievements")
         as_career=parameters.get("as_career")
         parents_support=parameters.get("parents_support")
@@ -330,7 +325,7 @@ def makeWebhookResult(req):
         as_career=parameters.get("as_career")
         parents_support=parameters.get("parents_support")
         return {
-        "source": "apiai-psychochatbot",
+        "source": "apiai-psychochatbot"
        # "followupEvent": {
         #   "name": "event_hobbies_interests"
         #}
@@ -371,7 +366,7 @@ def makeWebhookResult(req):
         "displayText": speech,
         #"data": {},
         #"contextOut": [],
-        "source": "apiai-psychochatbot",
+        "source": "apiai-psychochatbot"
       #  "followupEvent": {
        #    "name": "event_ask_about_family"
         #}
@@ -451,7 +446,7 @@ def makeWebhookResult(req):
         "displayText": speech,
         #"data": {},
         # "contextOut": [],
-        "source": "apiai-psychochatbot",
+        "source": "apiai-psychochatbot"
         #"followupEvent": {
          #   "name": "I1"
      #   }
