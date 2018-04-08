@@ -359,6 +359,56 @@ def makeWebhookResult(req):
           "name": "event_ask_about_family"
         }
         } 
+    
+    if req.get("result").get("action") == "action_result":
+        psycho_algo = pd.read_csv("psycho_data.csv")
+        psycho_algo.head()
+        number1 = LabelEncoder()
+        psycho_algo['like_mother'] = number1.fit_transform(psycho_algo['like_mother'])
+        number2 = LabelEncoder()
+        psycho_algo['like_father'] = number2.fit_transform(psycho_algo['like_father'])
+        number3 = LabelEncoder()
+        psycho_algo['hobby_as_career'] = number3.fit_transform(psycho_algo['hobby_as_career'])
+        number4 = LabelEncoder()
+        psycho_algo['achieve_hobby'] = number4.fit_transform(psycho_algo['achieve_hobby'])
+        number5 = LabelEncoder()
+        psycho_algo['duration_passion'] = number5.fit_transform(psycho_algo['duration_passion'])
+        number6 = LabelEncoder()
+        psycho_algo['parent_support'] = number6.fit_transform(psycho_algo['parent_support'])
+        number7 = LabelEncoder()
+        psycho_algo['result'] = number7.fit_transform(psycho_algo['result'])
+        with open('data.json', 'r') as data_file:
+            data_loaded =json.loads(data_file.read())
+        like_mother=str(data_loaded['ask_be_like_father'])
+        like_father=str(data_loaded['ask_be_like_mother'])
+        hobby_as_career=str(data_loaded['as_career'])
+        achieve_hobby=str(data_loaded['certifications'])
+        duration_passion='h'
+        parent_support=str(data_loaded['parents_support'])
+        
+        like_mother=list(like_mother)
+        like_father=list(like_father)
+        hobby_as_career=list(hobby_as_career)
+        achieve_hobby=list(achieve_hobby)
+        duration_passion=list(duration_passion)
+        parent_support=list(parent_support)
+        
+        lm=number1.transform(like_mother)
+        lf=number2.transform(like_father)
+        hc=number3.transform(hobby_as_career)
+        ah=number4.transform(achieve_hobby)
+        dp=number5.transform(duration_passion)
+        ps=number6.transform(parent_support)
+        
+        print(ps)
+        
+        return{
+        "speech": speech,
+        "displayText": speech,
+        #"data": {},
+        #"contextOut": [],
+        "source": "apiai-psychochatbot"
+        }
 
         print(speech)
         return {
