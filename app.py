@@ -303,7 +303,7 @@ def makeWebhookResult(req):
         as_career=parameters.get("as_career")
         parents_support=parameters.get("parents_support")
         dump_value('hobby','sports')
-        dump_value('duration','n')
+        dump_value('duration','h')
         dump_value('certifications',achievements)
         dump_value('as_career',as_career)
         dump_value('parents_support',parents_support)
@@ -415,7 +415,25 @@ def makeWebhookResult(req):
         res=number7.inverse_transform(model.predict([[lm[0],lf[0],hc[0],ah[0],dp[0],ps[0]]]))
         r=res[0]
         print(r)
-        speech=r
+        with open('data.json', 'r') as data_file:
+        data_loaded =json.loads(data_file.read())
+        if(str(r)== 'fo'):            
+            ar=data_loaded['father_occupation]
+        else:
+            if(str(r)=='mo'):
+                ar=data_loaded['mother_occupation] 
+            else:
+                ar=data_loaded['hobby']
+        speech='On the basis of information provided by you, I think the most suitable career option for you would be to opt for ' + ar
+        if(lm[0] == 1 and str(r)=='mo'):            
+            speech = speech + ' since you wanted to be like your mother'
+        if(lf[0] == 1 and str(r)=='fo'):            
+            speech = speech + ' since you wanted to be like your father'
+        if(hc[0] == 1 and str(r)=='hc'):            
+            speech = speech + ' Also since you wanted to make a carrer in your hobby and possess achievements in it '
+        if(ps[0] == 1):            
+            speech = speech + ' and your parents also support you in this. '
+        speech =speech + 'All the best for your future.'
         return{
         "speech": speech,
         "displayText": speech,
