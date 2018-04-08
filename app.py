@@ -300,6 +300,7 @@ def makeWebhookResult(req):
         result = req.get("result")
         parameters = result.get("parameters")
         duration=parameters.get("duration")
+        print(duration)
         achievements=parameters.get("achievements")
         as_career=parameters.get("as_career")
         parents_support=parameters.get("parents_support")
