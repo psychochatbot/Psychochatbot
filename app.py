@@ -61,7 +61,7 @@ def dump_value(key,value):
         data_loaded =json.loads(data_file.read())
     with io.open('data.json', 'w', encoding='utf8') as outfile:
         #data_loaded =json.loads(outfile)
-        abc=eval(data_loaded)
+     #   abc=eval(data_loaded)
         data_loaded[key]=value
         str_=json.dumps(data_loaded,ensure_ascii=False)
         outfile.write((str_))
