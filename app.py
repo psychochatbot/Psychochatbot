@@ -437,11 +437,11 @@ def makeWebhookResult(req):
         #print(speech)
 
     return {
-     ##   "speech": speech,
-      #  "displayText": speech,
+        "speech": speech,
+        "displayText": speech,
         #"data": {},
         # "contextOut": [],
-       # "source": "apiai-psychochatbot",
+        "source": "apiai-psychochatbot",
         #"followupEvent": {
          #   "name": "I1"
      #   }
