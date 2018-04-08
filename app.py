@@ -156,11 +156,7 @@ def makeWebhookResult(req):
         #print(psycho_algo['like_mother'])
        # print("this is  ")
         #print(number.transform(['y']))
-        a=2
-        b=0
-        c=0
-        d=1
-        print(model.predict([[a,b,c,d]]))
+  
         #with io.open('data.json', 'a', encoding='utf8') as outfile:
          #   entry = {}
          #   entry['father_occupation']=father_occupation
