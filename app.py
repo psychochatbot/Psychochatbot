@@ -385,19 +385,31 @@ def makeWebhookResult(req):
         duration_passion='h'
         parent_support=str(data_loaded['parents_support'])
         
-        like_mother=list(like_mother)
-        like_father=list(like_father)
-        hobby_as_career=list(hobby_as_career)
-        achieve_hobby=list(achieve_hobby)
-        duration_passion=list(duration_passion)
-        parent_support=list(parent_support)
+        list_lm=[]
+        list_lm.append(like_mother)
+        list_lf=[]
+        list_lf.append(like_father)
+        list_hc=[]
+        list_hc.append(hobby_as_career)
+        list_ah=[]
+        list_ah.append(achieve_hobby)
+        list_dp=[]
+        list_dp.append(duration_passion)
+        list_ps=[]
+        list_ps.append(parent_support)
+#        like_mother=list(like_mother)
+ #       like_father=list(like_father)
+  #      hobby_as_career=list(hobby_as_career)
+   #     achieve_hobby=list(achieve_hobby)
+    #    duration_passion=list(duration_passion)
+     #   parent_support=list(parent_support)
         
-        lm=number1.transform(like_mother)
-        lf=number2.transform(like_father)
-        hc=number3.transform(hobby_as_career)
-        ah=number4.transform(achieve_hobby)
-        dp=number5.transform(duration_passion)
-        ps=number6.transform(parent_support)
+        lm=number1.transform(list_lm)
+        lf=number2.transform(list_lf)
+        hc=number3.transform(list_hc)
+        ah=number4.transform(list_ah)
+        dp=number5.transform(list_dp)
+        ps=number6.transform(list_ps)
         
         print(ps)
         res=number7.inverse_transform(model.predict([[lm[0],lf[0],hc[0],ah[0],dp[0],ps[0]]]))
