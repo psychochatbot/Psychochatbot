@@ -158,7 +158,7 @@ def makeWebhookResult(req):
             print(data_loaded['father_occupation'])
            # data_file.close()
         if('mother_occupation' not in data_loaded):
-            speech="your father is "+entry['father_occupation']+" what does your mother do?"
+            speech="your father is "+data_loaded['father_occupation']+" what does your mother do?"
             return {
             "speech": speech,
             "displayText": speech,
