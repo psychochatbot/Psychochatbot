@@ -416,7 +416,7 @@ def makeWebhookResult(req):
         r=res[0]
         print(r)
         with open('data.json', 'r') as data_file:
-        data_loaded =json.loads(data_file.read())
+            data_loaded =json.loads(data_file.read())
         if(str(r)== 'fo'):            
             ar=data_loaded['father_occupation]
         else:
