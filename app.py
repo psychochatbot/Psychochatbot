@@ -57,11 +57,13 @@ def webhook():
     return r
 
 def dump_value(key,value):
-    with io.open('data.json', 'a', encoding='utf8') as outfile:
-        data_loaded =json.loads(outfile)
+    with open('data.json', 'r') as data_file:
+        data_loaded =json.loads(data_file.read())
+    with io.open('data.json', 'w', encoding='utf8') as outfile:
+        #data_loaded =json.loads(outfile)
         abc=eval(data_loaded)
         data_loaded[key]=value
-        str_=json.dumps(entry,ensure_ascii=False)
+        str_=json.dumps(data_loaded,ensure_ascii=False)
         outfile.write((str_))
 
 def makeWebhookResult(req):
