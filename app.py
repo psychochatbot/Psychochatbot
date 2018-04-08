@@ -418,10 +418,10 @@ def makeWebhookResult(req):
         with open('data.json', 'r') as data_file:
             data_loaded =json.loads(data_file.read())
         if(str(r)== 'fo'):            
-            ar=data_loaded['father_occupation]
+            ar=data_loaded['father_occupation']
         else:
             if(str(r)=='mo'):
-                ar=data_loaded['mother_occupation] 
+                ar=data_loaded['mother_occupation'] 
             else:
                 ar=data_loaded['hobby']
         speech='On the basis of information provided by you, I think the most suitable career option for you would be to opt for ' + ar
