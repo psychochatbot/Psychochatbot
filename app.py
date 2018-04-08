@@ -16,7 +16,7 @@ from sklearn.preprocessing import LabelEncoder
 # Flask app should start in global layout
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'oh_so_secret'
-with open('filename.pkl', 'rb') as f:
+with open('psycho.pkl', 'rb') as f:
     model = pickle.load(f,encoding='latin1')
     
 with io.open('data.json', 'w', encoding='utf8') as outfile:
@@ -401,7 +401,10 @@ def makeWebhookResult(req):
         ps=number6.transform(parent_support)
         
         print(ps)
-        
+        res=number7.inverse_transform(model.predict([[lm[0],lf[0],hc[0],ah[0],dp[0],ps[0]]]))
+        r=res[0]
+        print(r)
+        speech=r
         return{
         "speech": speech,
         "displayText": speech,
