@@ -166,7 +166,7 @@ def makeWebhookResult(req):
      }
         #speech="Okay, let's talk about your family"
         else:    
-            speech="your father is "+father_occupation+"and maa is "+session['mother_occupation']
+            speech="your father is "+father_occupation+"and maa is "+data_loaded['mother_occupation']
             return {
             "speech": speech,
             "displayText": speech,
@@ -189,10 +189,10 @@ def makeWebhookResult(req):
         result = req.get("result")
         parameters = result.get("parameters")
         mother_occupation=parameters.get("m_o")
-        session['mother_occupation']=mother_occupation
+        dump_value('mother_occupation',mother_occupation)
         #if(session['father_occupation']==""):
-        if('father_occupation' not in session):
-            speech="your mother is "+mother_occupation+" what does your father do?"
+        if('father_occupation' not in data_loaded):
+            speech="your mother is "+data_loaded['mother_occupation']+" what does your father do?"
             return {
             "speech": speech,
             "displayText": speech,
@@ -200,7 +200,7 @@ def makeWebhookResult(req):
      }
         #speech="Okay, let's talk about your family"
         else:    
-            speech="your mother is "+mother_occupation+" and your father is "+session['father_occupation']
+            speech="your mother is "+mother_occupation+" and your father is "+data_loaded['father_occupation']
             return {
             "speech": speech,
             "displayText": speech,
@@ -213,7 +213,7 @@ def makeWebhookResult(req):
           
     if req.get("result").get("action") == "action_ask_be_like_father":
         result = req.get("result")
-        session['ask_be_like']="father"
+        data_loaded['ask_be_like']="father"
         return {
         "source": "apiai-psychochatbot",
         "followupEvent": {
@@ -224,7 +224,7 @@ def makeWebhookResult(req):
        
     if req.get("result").get("action") == "action_ask_be_like_mother":
         result = req.get("result")
-        session['ask_be_like']="mother"
+        data_loaded['ask_be_like']="mother"
         return {
         "source": "apiai-psychochatbot",
         "followupEvent": {
@@ -235,11 +235,11 @@ def makeWebhookResult(req):
     
     if req.get("result").get("action") == "action_hobbies_interests_art":
         result = req.get("result")
-        session['hobby']="arts"
-        session['duration']=duration
-        session['certis']= certifications
-        session['as_career']=as_career
-        session['parents_support']=parents_support
+        data_loaded['hobby']="arts"
+        data_loaded['duration']=duration
+        data_loaded['certis']= certifications
+        data_loaded['as_career']=as_career
+        data_loaded['parents_support']=parents_support
         parameters = result.get("parameters")
         duration=parameters.get("duration")
         certifications=parameters.get("certifications")
