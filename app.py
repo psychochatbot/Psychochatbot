@@ -327,13 +327,35 @@ def makeWebhookResult(req):
     }
     
     
-    #if req.get("result").get("action") == "action_hobbies_interests_arts_no" or #"action_hobbies_interests_sports_no" or "action_hobbies_interests_misc_no" or "action_hobbies_interests_extras_no":
-     #   return{
-      #    "followupEvent": {
-       #   "name": "event_ask_about_family"
-        #}
-        #}
-          
+    if req.get("result").get("action") == "action_hobbies_interests_arts_no":
+        return{
+          "followupEvent": {
+          "name": "event_ask_about_family"
+        }
+        }
+    
+    if req.get("result").get("action") == "action_hobbies_interests_sports_no":
+    
+        return{
+          "followupEvent": {
+          "name": "event_ask_about_family"
+        }
+        }
+    
+    if req.get("result").get("action") == "action_hobbies_interests_misc_no":
+        return{
+          "followupEvent": {
+          "name": "event_ask_about_family"
+        }
+        }  
+    
+    if req.get("result").get("action") == "action_hobbies_interests_extras_no":
+        return{
+          "followupEvent": {
+          "name": "event_ask_about_family"
+        }
+        } 
+
         print(speech)
         return {
         "speech": speech,
