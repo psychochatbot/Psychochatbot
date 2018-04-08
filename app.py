@@ -122,7 +122,7 @@ def makeWebhookResult(req):
         #"contextOut": [],
         "source": "apiai-psychochatbot",
         "followupEvent": {
-           "name": "event_ask_about_family"
+           "name": "event_hobbies_interests"
         }
     }
     
@@ -139,7 +139,25 @@ def makeWebhookResult(req):
         #"contextOut": [],
         "source": "apiai-psychochatbot",
         "followupEvent": {
-           "name": "event_ask_about_family"
+           "name": "event_joke"
+        }
+    }
+    
+    if req.get("result").get("action") == "action_joke_no":
+        result = req.get("result")
+        return {
+        "source": "apiai-psychochatbot",
+        "followupEvent": {
+           "name": "event_joke"
+        }
+    }
+    
+    if req.get("result").get("action") == "action_joke_yes":
+        result = req.get("result")
+        return {
+        "source": "apiai-psychochatbot",
+        "followupEvent": {
+           "name": "event_hobbies_interests"
         }
     }
     
